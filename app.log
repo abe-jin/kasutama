@@ -1,0 +1,838 @@
+2025-05-26 11:07:36,893 DEBUG Loaded ADMIN_USER='admin'
+2025-05-26 11:07:36,894 DEBUG Loaded ADMIN_PASS='pass1234'
+2025-05-26 11:07:36,944 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-26 11:07:36,944 INFO [33mPress CTRL+C to quit[0m
+2025-05-26 11:09:12,326 DEBUG DEBUG: ADMIN_USER repr='admin'
+2025-05-26 11:09:12,326 DEBUG DEBUG: ADMIN_PASS repr='pass1234'
+2025-05-26 11:09:12,376 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-26 11:09:12,376 INFO [33mPress CTRL+C to quit[0m
+2025-05-26 11:18:00,122 DEBUG DEBUG: ADMIN_USER repr='admin'
+2025-05-26 11:18:00,122 DEBUG DEBUG: ADMIN_PASS repr='pass1234'
+2025-05-26 11:18:00,185 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.82:5000
+2025-05-26 11:18:00,185 INFO [33mPress CTRL+C to quit[0m
+2025-05-26 11:26:40,729 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 11:42:23,559 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 11:49:23,501 DEBUG Firebase initialized
+2025-05-26 11:49:23,501 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 11:55:29,645 DEBUG Firebase initialized
+2025-05-26 11:55:29,645 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 11:58:07,201 DEBUG Firebase initialized
+2025-05-26 11:58:07,201 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:01:19,641 DEBUG Firebase initialized
+2025-05-26 12:01:19,642 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:01:21,525 DEBUG Firebase initialized
+2025-05-26 12:01:21,525 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:03:13,836 DEBUG Firebase initialized
+2025-05-26 12:03:13,837 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:05:54,623 DEBUG Firebase initialized
+2025-05-26 12:05:54,623 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:06:19,831 DEBUG Firebase initialized
+2025-05-26 12:06:19,831 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:08:02,934 DEBUG Firebase initialized
+2025-05-26 12:08:02,934 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:13:50,609 DEBUG Firebase initialized
+2025-05-26 12:13:50,609 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:17:13,793 DEBUG Firebase initialized
+2025-05-26 12:17:13,793 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:20:35,502 DEBUG Firebase initialized
+2025-05-26 12:20:35,502 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:27:46,662 DEBUG Firebase initialized
+2025-05-26 12:27:46,662 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:36:14,148 DEBUG Firebase initialized
+2025-05-26 12:36:14,148 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:36:14,149 DEBUG Starting Flask on 127.0.0.1:5000
+2025-05-26 12:37:36,715 DEBUG Request: GET /, Authorization=None
+2025-05-26 12:37:36,715 DEBUG Response: GET / -> 200 OK
+2025-05-26 12:38:40,877 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-26 12:38:40,877 DEBUG Auth attempt: user='admin', pass='pass1234'
+2025-05-26 12:38:40,877 DEBUG Auth success
+2025-05-26 12:38:40,877 DEBUG /admin called
+2025-05-26 12:38:41,297 DEBUG Response: GET /admin -> 200 OK
+2025-05-26 12:50:02,492 DEBUG Firebase initialized
+2025-05-26 12:50:02,493 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:50:02,498 DEBUG Starting Flask on 127.0.0.1:5000
+2025-05-26 12:52:37,476 DEBUG Firebase initialized
+2025-05-26 12:52:37,476 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:53:47,074 DEBUG Firebase initialized
+2025-05-26 12:53:47,075 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 12:53:47,082 DEBUG Starting Flask on 127.0.0.1:5000
+2025-05-26 12:59:42,047 DEBUG Firebase initialized
+2025-05-26 12:59:42,048 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:00:55,203 DEBUG Firebase initialized
+2025-05-26 13:00:55,203 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:03:01,486 DEBUG Firebase initialized
+2025-05-26 13:03:01,486 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:05:28,669 DEBUG Firebase initialized
+2025-05-26 13:05:28,669 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:14:02,322 DEBUG Firebase initialized
+2025-05-26 13:14:02,323 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:46:45,004 DEBUG Firebase initialized
+2025-05-26 13:46:45,006 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:48:28,717 DEBUG Firebase initialized
+2025-05-26 13:48:28,718 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:52:39,277 DEBUG Firebase initialized
+2025-05-26 13:52:39,277 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:53:49,474 DEBUG Firebase initialized
+2025-05-26 13:53:49,475 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 13:55:15,511 DEBUG Firebase initialized
+2025-05-26 13:55:15,511 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:01:30,171 DEBUG Firebase initialized
+2025-05-26 14:01:30,172 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:02:06,980 DEBUG Firebase initialized
+2025-05-26 14:02:06,980 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:02:46,232 DEBUG Firebase initialized
+2025-05-26 14:02:46,232 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:04:45,207 DEBUG Firebase initialized
+2025-05-26 14:04:45,208 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:09:42,232 DEBUG Firebase initialized
+2025-05-26 14:09:42,232 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:11:39,441 DEBUG Firebase initialized
+2025-05-26 14:11:39,442 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:13:43,177 DEBUG Firebase initialized
+2025-05-26 14:13:43,177 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:15:52,868 DEBUG Firebase initialized
+2025-05-26 14:15:52,869 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:18:11,558 DEBUG Firebase initialized
+2025-05-26 14:18:11,558 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:20:59,602 DEBUG Firebase initialized
+2025-05-26 14:20:59,603 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:22:43,348 DEBUG Firebase initialized
+2025-05-26 14:22:43,348 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:22:54,136 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:22:54,141 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:23:21,663 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:23:21,664 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:23:43,949 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:23:43,950 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:25:03,866 DEBUG Firebase initialized
+2025-05-26 14:25:03,866 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:25:12,455 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:25:12,455 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:27:14,161 DEBUG Firebase initialized
+2025-05-26 14:27:14,161 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:27:24,975 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:27:24,975 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:29:14,565 DEBUG Firebase initialized
+2025-05-26 14:29:14,565 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:29:25,762 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:29:25,763 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:29:38,039 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:29:38,040 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:29:48,455 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:29:48,455 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:30:53,261 DEBUG Firebase initialized
+2025-05-26 14:30:53,261 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:31:05,479 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:31:05,479 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:31:19,274 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:31:19,275 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:32:21,387 DEBUG Firebase initialized
+2025-05-26 14:32:21,387 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:32:35,363 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:32:35,365 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:35:06,740 DEBUG Firebase initialized
+2025-05-26 14:35:06,740 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:35:19,994 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:35:19,994 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:35:37,791 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:35:37,791 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:44:44,222 DEBUG Firebase initialized
+2025-05-26 14:44:44,222 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:44:55,214 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:44:55,214 DEBUG [DEBUG][callback] signature=E/ba7bRIbLzBQDat71LswggVbgFkx1QX9830FTdARx4=
+2025-05-26 14:44:55,214 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562719552686522811","quoteToken":"x31E3LXgPywbCXKzC_FySlYqHtuNV1fp3CWJzH3_IDnlsIQNLnIAIMz_ZNsZ6D6_f_zxKORuBYim2vsLrao7pSneFcPRHKjF3TGp0GjGdV9sbtfuv_zye66Zg3G-mVD2YE1mQ735PWhFv5R_tSCKug","text":"カードで払える？"},"webhookEventId":"01JW5HYQND4GZQKCD4K1WKZ8SV","deliveryContext":{"isRedelivery":false},"timestamp":1748238294476,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"8bcd355082524e0ca722f638c89ef0d8","mode":"active"}]}
+2025-05-26 14:44:55,215 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:47:05,868 DEBUG Firebase initialized
+2025-05-26 14:47:05,869 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:47:20,329 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:47:20,329 DEBUG [DEBUG][callback] signature=I2DpFVkaVK1en7WmU5/btFCSxwJLNzD9DI8KPKI/vHI=
+2025-05-26 14:47:20,330 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562719795972669920","quoteToken":"9AbfJWOCR5a77Yo7pTEk49sbV_qaMwxiepCAlCm4esG-8AplQUaE1yYxz9-0G5JVuQdcaHXINNdAPKNVkGqMVOw2td7gW2lUnjPlWfM0nBzImSSRpRQAA9MoW6Hr-GtoPT681gag_japmaY56iRsug","text":"カードで払える？"},"webhookEventId":"01JW5J35CJHN1K22XDMT9B2B94","deliveryContext":{"isRedelivery":false},"timestamp":1748238439649,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5fefc9689bc34a18909e9410dd4fe385","mode":"active"}]}
+2025-05-26 14:47:20,330 DEBUG [DEBUG][handle_message] 発火 user_id=U50053e521947abbc1debc86f27b4c169, text=カードで払える？
+2025-05-26 14:47:20,671 DEBUG check_agreement(U50053e521947abbc1debc86f27b4c169) => False
+2025-05-26 14:47:20,671 DEBUG User has not agreed to terms
+2025-05-26 14:47:20,784 DEBUG Sent agreement request message
+2025-05-26 14:47:20,784 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:50:14,547 DEBUG Firebase initialized
+2025-05-26 14:50:14,547 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 14:50:21,277 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:50:21,277 DEBUG [DEBUG][callback] signature=xx29n4psYgn7OmrZEZsDm2TsLnXS41ms/P2EGStmsfU=
+2025-05-26 14:50:21,277 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562720098969452552","quoteToken":"e3ZZCpNNTZVzd9dSe8vQIAtILYY_Ne68sBX3hFedhUvMLX83EkB9b0iP5HEBmwkf4NESfWcQawGt3jPtsf6abEWirWxBDvZ51oKr_LH_yATmDhfDlxfbS-16tvQd_e-xFVUxWrf2e9hNFp6fJP0bYg","text":"カードで払える？"},"webhookEventId":"01JW5J8P32SVPA7GMF6JM1S1G8","deliveryContext":{"isRedelivery":false},"timestamp":1748238620263,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"c2f86cd21a794b1b8b5a10cf6c85fa82","mode":"active"}]}
+2025-05-26 14:50:21,669 DEBUG Reply text prepared: Q: 支払い方法
+A: 銀行振込、代金引換、クレジットカード決済に対応しています。
+
+【他の候補】
+・支払い方法
+・領収書発行
+2025-05-26 14:50:21,669 DEBUG Sending reply message
+2025-05-26 14:50:21,798 DEBUG Reply message sent successfully
+2025-05-26 14:50:21,799 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:50:32,783 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:50:32,784 DEBUG [DEBUG][callback] signature=kuyV9eQQ7QOQq1kYDcLWBzockzltBHr+viwo2oXEwCs=
+2025-05-26 14:50:32,784 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562720118665904248","quoteToken":"LasGa65NFD_p4QVVBSjQvgOA2vWuvh7M-0CjXBN5U9ChloNbUZfrpGLAHufq40bZF1C_dACb0w1OzcCVrTfKQqiTsW5UwN6TeeQVeARTENGu-33IUHEo3uuAQV0Ba_6NARcX51kedW1ukn79Ftxo5w","text":"支払い方法は？"},"webhookEventId":"01JW5J91C6CJF5FAESR33HE4P8","deliveryContext":{"isRedelivery":false},"timestamp":1748238631819,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a8f63f281e284236a5afce2fc365ad4c","mode":"active"}]}
+2025-05-26 14:50:32,899 DEBUG Reply text prepared: Q: 支払い方法
+A: 銀行振込、代金引換、クレジットカード決済に対応しています。
+
+【他の候補】
+・支払い方法
+・返品交換
+2025-05-26 14:50:32,899 DEBUG Sending reply message
+2025-05-26 14:50:33,042 DEBUG Reply message sent successfully
+2025-05-26 14:50:33,042 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:50:42,288 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:50:42,288 DEBUG [DEBUG][callback] signature=lRBVmsHXHMX5anSUHbJxoqSMPCFSm2c3t7CKJyOtx9w=
+2025-05-26 14:50:42,288 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562720134923026587","quoteToken":"JCCcp86XEZs01J--7lJchXQg8f9mwsvKWYgTw-_7M3WMNWwg-NB_nwBaJ-qEnb9EhYMWVKYek6mWm67lr1IofHc4zwFGqilojORWF6sFHva-gdsZJ-StL0G5RS8TPB9iOGuDGRlUK3qEHv9IpBP_hA","text":"返品交換してくれる？"},"webhookEventId":"01JW5J9ANNVB68WPSSGNZ220BS","deliveryContext":{"isRedelivery":false},"timestamp":1748238641512,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"29b7a9704c9747b39a143b55ad9c08ba","mode":"active"}]}
+2025-05-26 14:50:42,403 DEBUG Reply text prepared: Q: 返品交換
+A: 発送から1週間以内であれば返品・交換可能です。まずはご連絡ください。
+
+【他の候補】
+・返品交換
+・営業時間
+2025-05-26 14:50:42,403 DEBUG Sending reply message
+2025-05-26 14:50:42,520 DEBUG Reply message sent successfully
+2025-05-26 14:50:42,520 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 14:50:51,741 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 14:50:51,741 DEBUG [DEBUG][callback] signature=g7rjr9fsdn32VP+c0XIyKEmDK1zonP1JjQu4xHJ/7tU=
+2025-05-26 14:50:51,741 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562720150827565385","quoteToken":"YUaNddUhnbsQHi42s7qTZAMscC1Ya2sbfM_t3t7stiCzJo1ptmkvkSM7COPQQwFf6YEMo4UOTuzt7AaZw7Mz-T5gYDKNSUobFQLst6u6q8g5q8MpRPedL4AY2If_roMFUuxqYpBX67O1J7ZhdsKv6Q","text":"連絡先出して"},"webhookEventId":"01JW5J9KVN22TQP95VAMZGYK9Y","deliveryContext":{"isRedelivery":false},"timestamp":1748238651160,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"40f185a10f7443daa8b959e80f3bdef2","mode":"active"}]}
+2025-05-26 14:50:51,840 DEBUG Reply text prepared: Q: 梱包破損
+A: 商品袋の破損があった場合、配送時・梱包時いずれの場合もすぐにご連絡ください。状況確認後、返品・交換対応いたします。
+
+【他の候補】
+・営業時間
+・梱包破損
+2025-05-26 14:50:51,840 DEBUG Sending reply message
+2025-05-26 14:50:51,953 DEBUG Reply message sent successfully
+2025-05-26 14:50:51,953 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:00:11,644 DEBUG Firebase initialized
+2025-05-26 15:00:11,645 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:00:24,807 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:00:24,807 DEBUG [DEBUG][callback] signature=4zYX1QtTmOjkSoS/pGK7A3/DXQzIAW/YZrSMJkoIiuQ=
+2025-05-26 15:00:24,807 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721112078156000","quoteToken":"M8IAeS1-2pmMBqDmWBEyDrCS6zwSRVMxtQXli6fe05Z1XUknYug--nD1YwUl6TWZZpz0szUQbK6UVnssxGZUHGdn9m1dgxtooEDIOwJ-WGhTLg0bl6S-sS3xZr3PhnpTI1ssfWKxo4-RxpaOUPYwSA","text":"返品できますか？"},"webhookEventId":"01JW5JV3G854TFB4KR0MGDA7EY","deliveryContext":{"isRedelivery":false},"timestamp":1748239224024,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"c429edb3990d4723bf2fbb1a19883ce2","mode":"active"}]}
+2025-05-26 15:00:25,265 DEBUG Reply text prepared: Q: 返品交換
+A: 発送から1週間以内であれば返品・交換可能です。まずはご連絡ください。
+
+【他の候補】
+・返品交換
+・長期経過後のクレーム
+2025-05-26 15:00:25,265 DEBUG Sending reply message
+2025-05-26 15:00:25,401 DEBUG Reply message sent successfully
+2025-05-26 15:00:25,401 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:00:54,683 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:00:54,683 DEBUG [DEBUG][callback] signature=kb0FdDG4gR/YqzDM4p/aWEXnB/H+x7V2eB7kaKsDqIc=
+2025-05-26 15:00:54,684 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721161989849592","quoteToken":"2-mSB06iOrHuOW1TlKHkj05QgQonsg7h49H8DYb-2h6dNhLfG0K2LSqJu9SsM2s4IwDUhfPU1A2LsKI6adlrRJ_heo8mIrK4u8C5JcwGEkFjFZbYTDJI71Ua0wNBYf6lcVD3kcWUFz-0GfuQ5AiKgw","text":"最近おすすめの映画は？"},"webhookEventId":"01JW5JW0N8BT6ZWMCQNAFY5Y3B","deliveryContext":{"isRedelivery":false},"timestamp":1748239253715,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"676f52a7c50847b3a6bfcd4975c52360","mode":"active"}]}
+2025-05-26 15:00:54,798 DEBUG Reply text prepared: Q: 米価
+A: 現在、お米の価格は変動しています。最新の米価・単価についてはお気軽にお問い合わせください。大量注文・定期取引の場合は特別価格をご案内できる場合があります。
+
+【他の候補】
+・米価
+・価格問い合わせ
+2025-05-26 15:00:54,798 DEBUG Sending reply message
+2025-05-26 15:00:54,930 DEBUG Reply message sent successfully
+2025-05-26 15:00:54,931 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:03:06,301 DEBUG Firebase initialized
+2025-05-26 15:03:06,302 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:03:12,613 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:03:12,613 DEBUG [DEBUG][callback] signature=NfyRt0nft0QXnHXXGOKv6/RzBmZMEdDUyEtkiI+B2VY=
+2025-05-26 15:03:12,613 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721393397989802","quoteToken":"mbR7b2B-yC-xBviCvffinPLkkD5FHZBjkGaHbk0Grm14LLLn9gjehYvtou_Ak0lIxPzScBrHP7zyRsRjI38qsRbNpV2Fxhvd4Obpv-1_esWoYaZ9EB0KbxoKDMnSL604HIC0gc73DviEQDoyWmelRA","text":"最近おすすめの映画は"},"webhookEventId":"01JW5K07BNKSZNACPJF6MT4WTX","deliveryContext":{"isRedelivery":false},"timestamp":1748239391673,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ce60c409e7a64d8f9d0177cc8ddc0aa5","mode":"active"}]}
+2025-05-26 15:03:12,958 ERROR OpenAI API 呼び出しエラー: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-26 15:03:13,019 DEBUG AIフォールバック応答: 申し訳ありません。現在サポートが混み合っておりますので、後ほど改めてご連絡ください。
+2025-05-26 15:03:13,131 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:05:53,042 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:05:53,042 DEBUG [DEBUG][callback] signature=IWR9+z+60XkURHQOspPwGeGaPh23oMDL8LOwYtbyI+M=
+2025-05-26 15:05:53,042 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721662823825924","quoteToken":"uqjdmrKhRCf0mPgfDnciUOWtB8MMEAueSVGbmo9uck5_qY78i-26MrkoJbwB4K_WFkV1a08UmbsSHSkQZF4roIhD22_1GkP_OadZi5p3lyZJMBflE9zwzYfZNhMaSM-QjwaAH51yXgP7bPN9PgraHw","text":"おすすめの映画は？"},"webhookEventId":"01JW5K540J3TEZH5C2110NBA92","deliveryContext":{"isRedelivery":false},"timestamp":1748239552366,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"1579769e91324ca38bdc76dab97088d0","mode":"active"}]}
+2025-05-26 15:05:53,181 ERROR OpenAI API 呼び出しエラー: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-26 15:05:53,235 DEBUG AIフォールバック応答: 申し訳ありません。現在サポートが混み合っておりますので、後ほど改めてご連絡ください。
+2025-05-26 15:05:53,380 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:08:17,817 DEBUG Firebase initialized
+2025-05-26 15:08:17,817 DEBUG Firebase initialized
+2025-05-26 15:08:17,818 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:08:17,818 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:08:25,018 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:08:25,018 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:08:25,018 DEBUG [DEBUG][callback] signature=2PFp1D+JTJzUgMT0Da2k4BqENYWWwPsPqWTLXkLZsfM=
+2025-05-26 15:08:25,018 DEBUG [DEBUG][callback] signature=2PFp1D+JTJzUgMT0Da2k4BqENYWWwPsPqWTLXkLZsfM=
+2025-05-26 15:08:25,019 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721917283598893","quoteToken":"U7usRguAnszsybmNZLGVMQc0rU6fqrmPmIDaxpX3N2LEPfr9_56TMP9-De5o-V4Rfr2YLpi6kRL8IFjCTwVOkMc7KGDH7-wA8L69ktCYLxtAUh47v4yuKCth8JB76EWfwTtQZAnF8wDrM53GZic34A","text":"おすすめの映画は？"},"webhookEventId":"01JW5K9RF18QC6AH2ST6D063FZ","deliveryContext":{"isRedelivery":false},"timestamp":1748239704064,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"459bcbedaa2f4766bade12e60b7f394d","mode":"active"}]}
+2025-05-26 15:08:25,019 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562721917283598893","quoteToken":"U7usRguAnszsybmNZLGVMQc0rU6fqrmPmIDaxpX3N2LEPfr9_56TMP9-De5o-V4Rfr2YLpi6kRL8IFjCTwVOkMc7KGDH7-wA8L69ktCYLxtAUh47v4yuKCth8JB76EWfwTtQZAnF8wDrM53GZic34A","text":"おすすめの映画は？"},"webhookEventId":"01JW5K9RF18QC6AH2ST6D063FZ","deliveryContext":{"isRedelivery":false},"timestamp":1748239704064,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"459bcbedaa2f4766bade12e60b7f394d","mode":"active"}]}
+2025-05-26 15:08:27,016 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みがありますが、一般的に評価の高い作品としては「ショーシャンクの空に」や「フォレスト・ガンプ」、「インセプション」などがあります。ジャンルや興味に合わせて選んでみてください！
+2025-05-26 15:08:27,016 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みがありますが、一般的に評価の高い作品としては「ショーシャンクの空に」や「フォレスト・ガンプ」、「インセプション」などがあります。ジャンルや興味に合わせて選んでみてください！
+2025-05-26 15:08:27,157 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:08:27,157 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:18:15,624 DEBUG Firebase initialized
+2025-05-26 15:18:15,624 DEBUG Firebase initialized
+2025-05-26 15:18:15,624 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:18:15,624 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:18:27,677 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:18:27,677 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:18:27,677 DEBUG [DEBUG][callback] signature=5xMDAxZyypBbpKtlBGF9AflSlZ73c2K443SqrCRPno8=
+2025-05-26 15:18:27,677 DEBUG [DEBUG][callback] signature=5xMDAxZyypBbpKtlBGF9AflSlZ73c2K443SqrCRPno8=
+2025-05-26 15:18:27,677 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562722928715366829","quoteToken":"HssRpD3z8b6OxAYh7Qzkerli-QHr5E15TdWHLS3Q_8sshTFZykOvhpI9Q0Mp2DB1GTJYVR1OW-VAWRj4X3d6j4eIel3ym_Jd3Vszp7sUZMDKItDa1QNAdyX1SEQvkpn1Os2Da4ialLf20SpRHROkCw","text":"おすすめの映画は？"},"webhookEventId":"01JW5KW4ZK0T7FKQ5QCVWW5CNF","deliveryContext":{"isRedelivery":false},"timestamp":1748240306887,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"096c84fac6ae4d9696248440dcddad39","mode":"active"}]}
+2025-05-26 15:18:27,677 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562722928715366829","quoteToken":"HssRpD3z8b6OxAYh7Qzkerli-QHr5E15TdWHLS3Q_8sshTFZykOvhpI9Q0Mp2DB1GTJYVR1OW-VAWRj4X3d6j4eIel3ym_Jd3Vszp7sUZMDKItDa1QNAdyX1SEQvkpn1Os2Da4ialLf20SpRHROkCw","text":"おすすめの映画は？"},"webhookEventId":"01JW5KW4ZK0T7FKQ5QCVWW5CNF","deliveryContext":{"isRedelivery":false},"timestamp":1748240306887,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"096c84fac6ae4d9696248440dcddad39","mode":"active"}]}
+2025-05-26 15:18:30,088 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みが異なりますが、最近では「パラサイト」や「ジョジョ・ラビット」などが評価されています。他にも「ゲット・アウト」や「ラ・ラ・ランド」などもおすすめです。お好みや興味に合ったジャンルを選んで楽しんでみてください！
+2025-05-26 15:18:30,088 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みが異なりますが、最近では「パラサイト」や「ジョジョ・ラビット」などが評価されています。他にも「ゲット・アウト」や「ラ・ラ・ランド」などもおすすめです。お好みや興味に合ったジャンルを選んで楽しんでみてください！
+2025-05-26 15:18:30,286 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:18:30,286 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:20:56,672 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:20:56,672 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:20:56,672 DEBUG [DEBUG][callback] signature=trSm7PBtiE+JHfBqis3TgbPUcnP/oCAzyZ3pjMfTdDs=
+2025-05-26 15:20:56,672 DEBUG [DEBUG][callback] signature=trSm7PBtiE+JHfBqis3TgbPUcnP/oCAzyZ3pjMfTdDs=
+2025-05-26 15:20:56,672 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723178225337140","quoteToken":"AVNTjgWu3hgTi6afX4lQAxtPlbpipGR-MGQ9HVzSK2I5K3Jap7Bzwrxg3VOEzz1QigPnGUMHcG6ONZEG2rbkPN_bdigc_WF6WonvaLielBjg_I9hDN_wS9B4gbhlEIrPdBqmACmtv4sJRIULICt47A","text":"おすすめの映画は？"},"webhookEventId":"01JW5M0PEWVJPQ7EP5A516QZ5B","deliveryContext":{"isRedelivery":false},"timestamp":1748240455648,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ca51d426a81946c69201fa20dbc90cd4","mode":"active"}]}
+2025-05-26 15:20:56,672 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723178225337140","quoteToken":"AVNTjgWu3hgTi6afX4lQAxtPlbpipGR-MGQ9HVzSK2I5K3Jap7Bzwrxg3VOEzz1QigPnGUMHcG6ONZEG2rbkPN_bdigc_WF6WonvaLielBjg_I9hDN_wS9B4gbhlEIrPdBqmACmtv4sJRIULICt47A","text":"おすすめの映画は？"},"webhookEventId":"01JW5M0PEWVJPQ7EP5A516QZ5B","deliveryContext":{"isRedelivery":false},"timestamp":1748240455648,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ca51d426a81946c69201fa20dbc90cd4","mode":"active"}]}
+2025-05-26 15:21:00,135 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みがありますが、一般的に評価が高い映画としては「ショーシャンクの空に」「フォレスト・ガンプ」「スター・ウォーズシリーズ」「ハリー・ポッターシリーズ」「インセプション」「ラ・ラ・ランド」などがあります。ジャンルや好みに合わせて選んでみてください！
+2025-05-26 15:21:00,135 DEBUG AIフォールバック応答: おすすめの映画は人それぞれ好みがありますが、一般的に評価が高い映画としては「ショーシャンクの空に」「フォレスト・ガンプ」「スター・ウォーズシリーズ」「ハリー・ポッターシリーズ」「インセプション」「ラ・ラ・ランド」などがあります。ジャンルや好みに合わせて選んでみてください！
+2025-05-26 15:21:00,275 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:21:00,275 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:21:22,664 DEBUG Firebase initialized
+2025-05-26 15:21:22,664 DEBUG Firebase initialized
+2025-05-26 15:21:22,664 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:21:22,664 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:21:29,316 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:21:29,316 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:21:29,317 DEBUG [DEBUG][callback] signature=jiL/fUJnc1gsJKzKSA55EZLY2215GQDpS5hM2DJy8k8=
+2025-05-26 15:21:29,317 DEBUG [DEBUG][callback] signature=jiL/fUJnc1gsJKzKSA55EZLY2215GQDpS5hM2DJy8k8=
+2025-05-26 15:21:29,317 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723233858846910","quoteToken":"LRMZnTRVstHFQ17b3xe4a_t2wb2TnOjaf_1c58hWMfC1EasOaV_gR1eHX_gwnyfnwz6Zcz5HrT4AGqtklbQGNii7YlJ6JXXnQeDFn2ITJXzJG24p7e5XkWq4mtfmQ5VIQOF2GFLBJGetEkLyNRgLuw","text":"おすすめの映画は？"},"webhookEventId":"01JW5M1PA74N4NJYVKF9C88FW2","deliveryContext":{"isRedelivery":false},"timestamp":1748240488629,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"902a3af8d6c54088b020edc90addecfb","mode":"active"}]}
+2025-05-26 15:21:29,317 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723233858846910","quoteToken":"LRMZnTRVstHFQ17b3xe4a_t2wb2TnOjaf_1c58hWMfC1EasOaV_gR1eHX_gwnyfnwz6Zcz5HrT4AGqtklbQGNii7YlJ6JXXnQeDFn2ITJXzJG24p7e5XkWq4mtfmQ5VIQOF2GFLBJGetEkLyNRgLuw","text":"おすすめの映画は？"},"webhookEventId":"01JW5M1PA74N4NJYVKF9C88FW2","deliveryContext":{"isRedelivery":false},"timestamp":1748240488629,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"902a3af8d6c54088b020edc90addecfb","mode":"active"}]}
+2025-05-26 15:21:29,318 ERROR Reply failed: name 'load_clarification' is not defined
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 332, in handle_message
+    pending = load_clarification(user_id)
+              ^^^^^^^^^^^^^^^^^^
+NameError: name 'load_clarification' is not defined
+2025-05-26 15:21:29,318 ERROR Reply failed: name 'load_clarification' is not defined
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 332, in handle_message
+    pending = load_clarification(user_id)
+              ^^^^^^^^^^^^^^^^^^
+NameError: name 'load_clarification' is not defined
+2025-05-26 15:21:29,318 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:21:29,318 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:22:57,768 DEBUG Firebase initialized
+2025-05-26 15:22:57,768 DEBUG Firebase initialized
+2025-05-26 15:22:57,768 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:22:57,768 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:23:04,904 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:23:04,904 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:23:04,904 DEBUG [DEBUG][callback] signature=6YAEOnaT8e8ZFNJElnaN7SUOQCFvqpzQIPwascqtiHE=
+2025-05-26 15:23:04,904 DEBUG [DEBUG][callback] signature=6YAEOnaT8e8ZFNJElnaN7SUOQCFvqpzQIPwascqtiHE=
+2025-05-26 15:23:04,905 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723394031452334","quoteToken":"L1lsIrlKtPjeGpc4yhrl25Fjw0iCpyUa9bJ_e2ysgnTKI4HDUJ3Kb6nMFNd2nTduddN7i2tBpW6gpcHRD4VWRPCBPMEe_XKz_Lugp5D7wSzTNNlnNggTeLP6H3v829_1Qg14HZrHkNPDAe8o6Fa3hg","text":"おすすめの映画は？"},"webhookEventId":"01JW5M4KPZ1YMCEJ1FZC95V6EH","deliveryContext":{"isRedelivery":false},"timestamp":1748240584185,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ef18ca170c6345eb88c3a9360a8c523d","mode":"active"}]}
+2025-05-26 15:23:04,905 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723394031452334","quoteToken":"L1lsIrlKtPjeGpc4yhrl25Fjw0iCpyUa9bJ_e2ysgnTKI4HDUJ3Kb6nMFNd2nTduddN7i2tBpW6gpcHRD4VWRPCBPMEe_XKz_Lugp5D7wSzTNNlnNggTeLP6H3v829_1Qg14HZrHkNPDAe8o6Fa3hg","text":"おすすめの映画は？"},"webhookEventId":"01JW5M4KPZ1YMCEJ1FZC95V6EH","deliveryContext":{"isRedelivery":false},"timestamp":1748240584185,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ef18ca170c6345eb88c3a9360a8c523d","mode":"active"}]}
+2025-05-26 15:23:05,508 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:23:05,508 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:24:32,605 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:24:32,605 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:24:32,605 DEBUG [DEBUG][callback] signature=svDpwvDeFTtRAhHYDywKAMEgk/vSUpzlLj2j0TDnq8w=
+2025-05-26 15:24:32,605 DEBUG [DEBUG][callback] signature=svDpwvDeFTtRAhHYDywKAMEgk/vSUpzlLj2j0TDnq8w=
+2025-05-26 15:24:32,605 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723541133295997","quoteToken":"qL_cdyVXYWf15l5k5dcQVeNQE1dsMklXDMG5uHOjtnVsPbTt-v00vnlFdxlnGfVzcvJ7oqX5CmL2GKUFG6oJmGeZphDZ2oDQdj_XhaOiRFjkW6Au7WptHpni2FJ2HWoc5yoZ2IP4WlleEDIhMR5q9g","text":"おすすめの映画は？"},"webhookEventId":"01JW5M79AT61AVG9MZ8MZ5ZT7D","deliveryContext":{"isRedelivery":false},"timestamp":1748240671811,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"635c13b20c04413c861ad8d803d08261","mode":"active"}]}
+2025-05-26 15:24:32,605 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723541133295997","quoteToken":"qL_cdyVXYWf15l5k5dcQVeNQE1dsMklXDMG5uHOjtnVsPbTt-v00vnlFdxlnGfVzcvJ7oqX5CmL2GKUFG6oJmGeZphDZ2oDQdj_XhaOiRFjkW6Au7WptHpni2FJ2HWoc5yoZ2IP4WlleEDIhMR5q9g","text":"おすすめの映画は？"},"webhookEventId":"01JW5M79AT61AVG9MZ8MZ5ZT7D","deliveryContext":{"isRedelivery":false},"timestamp":1748240671811,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"635c13b20c04413c861ad8d803d08261","mode":"active"}]}
+2025-05-26 15:24:32,960 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:24:32,960 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:25:00,724 DEBUG Firebase initialized
+2025-05-26 15:25:00,724 DEBUG Firebase initialized
+2025-05-26 15:25:00,725 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:25:00,725 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:25:06,079 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:25:06,079 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:25:06,079 DEBUG [DEBUG][callback] signature=OfsRgXrDQqJPn9RLwrwQxXudPagi9TCuIBA6DJxi+yo=
+2025-05-26 15:25:06,079 DEBUG [DEBUG][callback] signature=OfsRgXrDQqJPn9RLwrwQxXudPagi9TCuIBA6DJxi+yo=
+2025-05-26 15:25:06,079 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723596850954519","quoteToken":"g-kAklvomi5RdR2gCUtk4pAdSIo2GTVr_nXQq_sRa3LyeLv-atn4X-5RD98rgIzOjI8R6KIH-RVIFEbyfhSH5SyGOs5J_I6CAOLoJ9FBh0LBRcvERoJNZgsqfselRWkOR52A18Ivk-asJEmAEZOwKg","text":"おすすめの映画は？"},"webhookEventId":"01JW5M8A13Q703EVVRK1NAMXVP","deliveryContext":{"isRedelivery":false},"timestamp":1748240705105,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b4702b60954246bbab00ac2d4ca78f6d","mode":"active"}]}
+2025-05-26 15:25:06,079 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723596850954519","quoteToken":"g-kAklvomi5RdR2gCUtk4pAdSIo2GTVr_nXQq_sRa3LyeLv-atn4X-5RD98rgIzOjI8R6KIH-RVIFEbyfhSH5SyGOs5J_I6CAOLoJ9FBh0LBRcvERoJNZgsqfselRWkOR52A18Ivk-asJEmAEZOwKg","text":"おすすめの映画は？"},"webhookEventId":"01JW5M8A13Q703EVVRK1NAMXVP","deliveryContext":{"isRedelivery":false},"timestamp":1748240705105,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b4702b60954246bbab00ac2d4ca78f6d","mode":"active"}]}
+2025-05-26 15:25:06,591 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:25:06,591 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:27:53,991 DEBUG Firebase initialized
+2025-05-26 15:27:53,991 DEBUG Firebase initialized
+2025-05-26 15:27:53,991 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:27:53,991 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 15:28:02,190 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:28:02,190 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:28:02,190 DEBUG [DEBUG][callback] signature=ZRrp4gFQ9EzZzEGEajapntVfE4ofiS8v5lHiNf5868I=
+2025-05-26 15:28:02,190 DEBUG [DEBUG][callback] signature=ZRrp4gFQ9EzZzEGEajapntVfE4ofiS8v5lHiNf5868I=
+2025-05-26 15:28:02,190 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723892331020617","quoteToken":"fB7X1JcDJd1Uiut3e0Z5-gICp9x4lXbcBj7tjcm_Ld2Tc0buzYWNmxY8O_n1nA_JglR7B614Ds6Vpz-fxQLpGoGlTJD-AqsF3x3huRpDRykOZVLUR5HYWp1H97GaR_I-R3_nmdTqYK5NoFAdRFZQpQ","text":"おすすめの映画は？"},"webhookEventId":"01JW5MDNZ67NF1WSN62BHYA38T","deliveryContext":{"isRedelivery":false},"timestamp":1748240881161,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"0b6a357e4f7e472a8e88657b8e5255b7","mode":"active"}]}
+2025-05-26 15:28:02,190 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723892331020617","quoteToken":"fB7X1JcDJd1Uiut3e0Z5-gICp9x4lXbcBj7tjcm_Ld2Tc0buzYWNmxY8O_n1nA_JglR7B614Ds6Vpz-fxQLpGoGlTJD-AqsF3x3huRpDRykOZVLUR5HYWp1H97GaR_I-R3_nmdTqYK5NoFAdRFZQpQ","text":"おすすめの映画は？"},"webhookEventId":"01JW5MDNZ67NF1WSN62BHYA38T","deliveryContext":{"isRedelivery":false},"timestamp":1748240881161,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"0b6a357e4f7e472a8e88657b8e5255b7","mode":"active"}]}
+2025-05-26 15:28:02,571 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 15:28:02,571 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 15:28:02,683 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:28:02,683 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:28:33,138 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:28:33,138 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:28:33,138 DEBUG [DEBUG][callback] signature=9goV+OIdxGaEM4/nGwg7QHPMO3OtQTZ9dtNBQoEve5Q=
+2025-05-26 15:28:33,138 DEBUG [DEBUG][callback] signature=9goV+OIdxGaEM4/nGwg7QHPMO3OtQTZ9dtNBQoEve5Q=
+2025-05-26 15:28:33,138 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723944038924328","quoteToken":"W7XToWTTR3S__dR0vdReNLrt8ojQvFf5o_Kkt5iOWYKjrLwLhtAlTcw9ZrS9kVH5oWivpJptegAex5sGy3nwddepBb7B_EbAs_q6Bi10IRfZxAyq1UZgf4RmIl30B8ieuJoVQxzb9PzgXPr6U8eqJw","text":"しはらいほうほうおしえて"},"webhookEventId":"01JW5MEM6GYQDGMDEHD5Q9F186","deliveryContext":{"isRedelivery":false},"timestamp":1748240912085,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a398e45a06f846ceaeed0b0a10427cb1","mode":"active"}]}
+2025-05-26 15:28:33,138 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723944038924328","quoteToken":"W7XToWTTR3S__dR0vdReNLrt8ojQvFf5o_Kkt5iOWYKjrLwLhtAlTcw9ZrS9kVH5oWivpJptegAex5sGy3nwddepBb7B_EbAs_q6Bi10IRfZxAyq1UZgf4RmIl30B8ieuJoVQxzb9PzgXPr6U8eqJw","text":"しはらいほうほうおしえて"},"webhookEventId":"01JW5MEM6GYQDGMDEHD5Q9F186","deliveryContext":{"isRedelivery":false},"timestamp":1748240912085,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a398e45a06f846ceaeed0b0a10427cb1","mode":"active"}]}
+2025-05-26 15:28:33,231 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:28:33,231 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:28:33,388 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:28:33,388 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:29:00,745 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:29:00,745 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:29:00,746 DEBUG [DEBUG][callback] signature=snuKl4DGRY1JFZlrifXhbw46BSLj/jZO2eMdqCFSfls=
+2025-05-26 15:29:00,746 DEBUG [DEBUG][callback] signature=snuKl4DGRY1JFZlrifXhbw46BSLj/jZO2eMdqCFSfls=
+2025-05-26 15:29:00,746 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723991199154538","quoteToken":"GIjxIrNP22bQ7e9HyIZns0Vjx9dez3vko_cfReqmzRgfEvABwBpsfa9wxyHY_ZrC114W1OxogcJBsFgG3D2HxFOlLQsXZ0Kafa91fdlcFEgbKtnj4sztM9-cWqXboFnXBQDqbNYitzG81vUCYwnK2g","text":"クレカどうやって"},"webhookEventId":"01JW5MFF703WJQ7T1SA6CFK6WN","deliveryContext":{"isRedelivery":false},"timestamp":1748240940112,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"75c57a0f496643f99b78be60d9b69a3d","mode":"active"}]}
+2025-05-26 15:29:00,746 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562723991199154538","quoteToken":"GIjxIrNP22bQ7e9HyIZns0Vjx9dez3vko_cfReqmzRgfEvABwBpsfa9wxyHY_ZrC114W1OxogcJBsFgG3D2HxFOlLQsXZ0Kafa91fdlcFEgbKtnj4sztM9-cWqXboFnXBQDqbNYitzG81vUCYwnK2g","text":"クレカどうやって"},"webhookEventId":"01JW5MFF703WJQ7T1SA6CFK6WN","deliveryContext":{"isRedelivery":false},"timestamp":1748240940112,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"75c57a0f496643f99b78be60d9b69a3d","mode":"active"}]}
+2025-05-26 15:29:00,843 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:29:00,843 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:29:01,085 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:29:01,085 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:29:08,349 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:29:08,349 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:29:08,349 DEBUG [DEBUG][callback] signature=vxSh0uMRn7Fb00gnB/+NROFyUjNHXDZTcJPb3HnovB0=
+2025-05-26 15:29:08,349 DEBUG [DEBUG][callback] signature=vxSh0uMRn7Fb00gnB/+NROFyUjNHXDZTcJPb3HnovB0=
+2025-05-26 15:29:08,349 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562724003363160186","quoteToken":"UloS617T5HeTWqxfVhr-Ee4QIftN1FN1H3MyKZx7ZEwyn_lJf0rYQnNrzxfxrOmY5VowlCUVFPEKz9TdpzWPQXWDwQh2DkcJlvi7AK6LxoRNcU-iKa7DuQWR6y0ZtcUcvSseRxp9ZVTOUuYy4aT-6A","text":"クレジットカードどうやって"},"webhookEventId":"01JW5MFPM1046SDGTRK0F8EYD7","deliveryContext":{"isRedelivery":false},"timestamp":1748240947335,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"af9013969f4a4a738309d865f69d4862","mode":"active"}]}
+2025-05-26 15:29:08,349 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562724003363160186","quoteToken":"UloS617T5HeTWqxfVhr-Ee4QIftN1FN1H3MyKZx7ZEwyn_lJf0rYQnNrzxfxrOmY5VowlCUVFPEKz9TdpzWPQXWDwQh2DkcJlvi7AK6LxoRNcU-iKa7DuQWR6y0ZtcUcvSseRxp9ZVTOUuYy4aT-6A","text":"クレジットカードどうやって"},"webhookEventId":"01JW5MFPM1046SDGTRK0F8EYD7","deliveryContext":{"isRedelivery":false},"timestamp":1748240947335,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"af9013969f4a4a738309d865f69d4862","mode":"active"}]}
+2025-05-26 15:29:08,466 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:29:08,466 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:29:08,637 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:29:08,637 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:30:08,262 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:30:08,262 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 15:30:08,262 DEBUG [DEBUG][callback] signature=Gj/qsAYc1o8JE0OQJeOytZqfQ6xTNT5JJCOhkPBzbrw=
+2025-05-26 15:30:08,262 DEBUG [DEBUG][callback] signature=Gj/qsAYc1o8JE0OQJeOytZqfQ6xTNT5JJCOhkPBzbrw=
+2025-05-26 15:30:08,262 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562724104461877565","quoteToken":"4dCTRnWHSXaIeeJxPUqMtqsREKw9InQKPXNQcpa5BqWyFLSNXZy9lkKGeZdsjvQmCk_GkwLU4R51TZPRphQtaSa6vbH_QTkQtXX7gZ0mI2ir5p_TIKNgd3SAELOFh7aABk5ANIRjBKCZWTJuFCWOWg","text":"クレジットカード 利用方法"},"webhookEventId":"01JW5MHH2ZVTTANASZZ3J87K0R","deliveryContext":{"isRedelivery":false},"timestamp":1748241007572,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"e7bfe312a09149a9ae22f41f45ea9d02","mode":"active"}]}
+2025-05-26 15:30:08,262 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562724104461877565","quoteToken":"4dCTRnWHSXaIeeJxPUqMtqsREKw9InQKPXNQcpa5BqWyFLSNXZy9lkKGeZdsjvQmCk_GkwLU4R51TZPRphQtaSa6vbH_QTkQtXX7gZ0mI2ir5p_TIKNgd3SAELOFh7aABk5ANIRjBKCZWTJuFCWOWg","text":"クレジットカード 利用方法"},"webhookEventId":"01JW5MHH2ZVTTANASZZ3J87K0R","deliveryContext":{"isRedelivery":false},"timestamp":1748241007572,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"e7bfe312a09149a9ae22f41f45ea9d02","mode":"active"}]}
+2025-05-26 15:30:08,382 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:30:08,382 DEBUG FAQ 判定 → question=支払い方法, score=1.00, others=['支払い方法']
+2025-05-26 15:30:08,596 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 15:30:08,596 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:16:59,068 DEBUG Firebase initialized
+2025-05-26 16:16:59,068 DEBUG Firebase initialized
+2025-05-26 16:16:59,068 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:16:59,068 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:17:13,441 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:17:13,441 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:17:13,441 DEBUG [DEBUG][callback] signature=hFWohviO5AoAKAK5Lww04fb80kkOUsBtQ3JBXHyUQb0=
+2025-05-26 16:17:13,441 DEBUG [DEBUG][callback] signature=hFWohviO5AoAKAK5Lww04fb80kkOUsBtQ3JBXHyUQb0=
+2025-05-26 16:17:13,441 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562728843925258601","quoteToken":"dF3qTkVUgp3yedl3L4v9LApXC45LWMBes66Og4WevQq6-ov2j0w4BTGJ7dIdXZE2vBznGR0jpYwldaRphB2QniJSkDFsaNN6W3AT9gMc9hVtDcKApjA6n-y9GZEIVIrfHhRHP5Ja9SEykf5mWc1crw","text":"いつ届くか教えて"},"webhookEventId":"01JW5Q7R0ZTPBG5ET1K8CDE934","deliveryContext":{"isRedelivery":false},"timestamp":1748243832578,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a75039680712422e9ec13a6c1a994ce0","mode":"active"}]}
+2025-05-26 16:17:13,441 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562728843925258601","quoteToken":"dF3qTkVUgp3yedl3L4v9LApXC45LWMBes66Og4WevQq6-ov2j0w4BTGJ7dIdXZE2vBznGR0jpYwldaRphB2QniJSkDFsaNN6W3AT9gMc9hVtDcKApjA6n-y9GZEIVIrfHhRHP5Ja9SEykf5mWc1crw","text":"いつ届くか教えて"},"webhookEventId":"01JW5Q7R0ZTPBG5ET1K8CDE934","deliveryContext":{"isRedelivery":false},"timestamp":1748243832578,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a75039680712422e9ec13a6c1a994ce0","mode":"active"}]}
+2025-05-26 16:17:13,872 DEBUG FAQ 判定 → question=納期, score=1.00, others=['納期']
+2025-05-26 16:17:13,872 DEBUG FAQ 判定 → question=納期, score=1.00, others=['納期']
+2025-05-26 16:17:14,052 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:17:14,052 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:18:00,297 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:18:00,297 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:18:00,298 DEBUG [DEBUG][callback] signature=zCwzRNaXeIh66lTqwDyyV1wK3Cd1neLZJrw3g1xdvJ0=
+2025-05-26 16:18:00,298 DEBUG [DEBUG][callback] signature=zCwzRNaXeIh66lTqwDyyV1wK3Cd1neLZJrw3g1xdvJ0=
+2025-05-26 16:18:00,298 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562728922459144238","quoteToken":"_a9tKzG-BgiIF5i_365hvJ4ifNuVXUHDqXmUoEtD2yD1YuEUs7JpSK2zyhkscvmIisS7uxx8FBRyTXybBUhIh0BsKHRv7f-kYlKItO-B6J23C7oC64A4kzyyalQDP5eHQ1hLZJWv5oKi_WjIkVrqeA","text":"決済いける？"},"webhookEventId":"01JW5Q95RYZATTZ28YKHCJS6DX","deliveryContext":{"isRedelivery":false},"timestamp":1748243879458,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"36fd66421d2b477c8f4923aabb57c793","mode":"active"}]}
+2025-05-26 16:18:00,298 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562728922459144238","quoteToken":"_a9tKzG-BgiIF5i_365hvJ4ifNuVXUHDqXmUoEtD2yD1YuEUs7JpSK2zyhkscvmIisS7uxx8FBRyTXybBUhIh0BsKHRv7f-kYlKItO-B6J23C7oC64A4kzyyalQDP5eHQ1hLZJWv5oKi_WjIkVrqeA","text":"決済いける？"},"webhookEventId":"01JW5Q95RYZATTZ28YKHCJS6DX","deliveryContext":{"isRedelivery":false},"timestamp":1748243879458,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"36fd66421d2b477c8f4923aabb57c793","mode":"active"}]}
+2025-05-26 16:18:00,375 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:18:00,375 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:18:00,574 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:18:00,574 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:19:49,091 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:19:49,091 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:19:49,091 DEBUG [DEBUG][callback] signature=qArm/9ye/8T7l4Nf5XkmeNS4QO2LDgxdoKcpNq5/oVE=
+2025-05-26 16:19:49,091 DEBUG [DEBUG][callback] signature=qArm/9ye/8T7l4Nf5XkmeNS4QO2LDgxdoKcpNq5/oVE=
+2025-05-26 16:19:49,091 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729104995778987","quoteToken":"Bp6FwHSWt5kTeUbq-JmV9ymGKEOGPiqSi9KxduC51huEBqZjx4cEDx40ZHJSnoQ0l5BaR4E22E-WP2Nh8jrt7JYY_emBlHrQDqKLgXJlA3eWPgqNhXSnPGagHMCoE9zvnPwkGCa2j-PkWRh3dMsveA","text":"決済いける？"},"webhookEventId":"01JW5QCG0P7WF8XWRND31VKVRQ","deliveryContext":{"isRedelivery":false},"timestamp":1748243988107,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"fd8ac71dfdb54fd5948840b03f5659b9","mode":"active"}]}
+2025-05-26 16:19:49,091 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729104995778987","quoteToken":"Bp6FwHSWt5kTeUbq-JmV9ymGKEOGPiqSi9KxduC51huEBqZjx4cEDx40ZHJSnoQ0l5BaR4E22E-WP2Nh8jrt7JYY_emBlHrQDqKLgXJlA3eWPgqNhXSnPGagHMCoE9zvnPwkGCa2j-PkWRh3dMsveA","text":"決済いける？"},"webhookEventId":"01JW5QCG0P7WF8XWRND31VKVRQ","deliveryContext":{"isRedelivery":false},"timestamp":1748243988107,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"fd8ac71dfdb54fd5948840b03f5659b9","mode":"active"}]}
+2025-05-26 16:19:49,226 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:19:49,226 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:19:49,444 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:19:49,444 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:20:06,162 DEBUG Firebase initialized
+2025-05-26 16:20:06,162 DEBUG Firebase initialized
+2025-05-26 16:20:06,162 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:20:06,162 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:20:12,092 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:20:12,092 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:20:12,092 DEBUG [DEBUG][callback] signature=uJfqnKhQHWhnGGPJXDVFCEY1I1IwedFJOgPMDWpPNHw=
+2025-05-26 16:20:12,092 DEBUG [DEBUG][callback] signature=uJfqnKhQHWhnGGPJXDVFCEY1I1IwedFJOgPMDWpPNHw=
+2025-05-26 16:20:12,092 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729143364485612","quoteToken":"m6G9z8kUqChaHO0NmOy_lopfuyY9TCS3HsE5pWThTmfnljiGnK-9HwkFcUpfq6w9lcRVy5vAJkfada9YK-moGIlCqCVRSnTSHeQqQLzTVbMU3mBkzlCSnbnemFxwtPG-0LNimI4Bt1Kbc2c0SGVI_g","text":"決済いける？"},"webhookEventId":"01JW5QD6FBYVJMHS0Y8FT2888X","deliveryContext":{"isRedelivery":false},"timestamp":1748244011063,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"50f1fdf257f1415fb4f4bb715c35633b","mode":"active"}]}
+2025-05-26 16:20:12,092 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729143364485612","quoteToken":"m6G9z8kUqChaHO0NmOy_lopfuyY9TCS3HsE5pWThTmfnljiGnK-9HwkFcUpfq6w9lcRVy5vAJkfada9YK-moGIlCqCVRSnTSHeQqQLzTVbMU3mBkzlCSnbnemFxwtPG-0LNimI4Bt1Kbc2c0SGVI_g","text":"決済いける？"},"webhookEventId":"01JW5QD6FBYVJMHS0Y8FT2888X","deliveryContext":{"isRedelivery":false},"timestamp":1748244011063,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"50f1fdf257f1415fb4f4bb715c35633b","mode":"active"}]}
+2025-05-26 16:20:12,506 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:20:12,506 DEBUG FAQ 判定 → question=None, score=0.00, others=[]
+2025-05-26 16:20:12,667 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:20:12,667 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:26:52,372 DEBUG Firebase initialized
+2025-05-26 16:26:52,372 DEBUG Firebase initialized
+2025-05-26 16:26:52,372 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:26:52,372 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:27:11,403 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:11,403 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:11,403 DEBUG [DEBUG][callback] signature=I0ZEvvxodiGRM8lYq0zRfXdott3EXVW5Ree9MG1OAnE=
+2025-05-26 16:27:11,403 DEBUG [DEBUG][callback] signature=I0ZEvvxodiGRM8lYq0zRfXdott3EXVW5Ree9MG1OAnE=
+2025-05-26 16:27:11,404 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729846883484219","quoteToken":"dxrSQ7I1LK3-MvWh1v7wG7MPL4oPHrYFd5uYHsKLemWKbgF2oBioBWvgAXZuEEz5L0HOZGmDZYcyvQ_Die5p3jOEhj83DNp4Wc5qCMfjvJcvHAcyGoAzdhlNroTJYNxXhF_YxU7AT1j3Z-8yv09ZNQ","text":"返品できる？"},"webhookEventId":"01JW5QSZZ3XV5KDCHYSAA7GZK6","deliveryContext":{"isRedelivery":false},"timestamp":1748244430462,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"64d19aa857114ae698cd00c7eeb3fe36","mode":"active"}]}
+2025-05-26 16:27:11,404 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729846883484219","quoteToken":"dxrSQ7I1LK3-MvWh1v7wG7MPL4oPHrYFd5uYHsKLemWKbgF2oBioBWvgAXZuEEz5L0HOZGmDZYcyvQ_Die5p3jOEhj83DNp4Wc5qCMfjvJcvHAcyGoAzdhlNroTJYNxXhF_YxU7AT1j3Z-8yv09ZNQ","text":"返品できる？"},"webhookEventId":"01JW5QSZZ3XV5KDCHYSAA7GZK6","deliveryContext":{"isRedelivery":false},"timestamp":1748244430462,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"64d19aa857114ae698cd00c7eeb3fe36","mode":"active"}]}
+2025-05-26 16:27:12,022 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:12,022 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:26,018 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:26,018 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:26,019 DEBUG [DEBUG][callback] signature=b0A525SxZEhXAv91ZsTWn6rW+FI3w58r6yXP/3IriPo=
+2025-05-26 16:27:26,019 DEBUG [DEBUG][callback] signature=b0A525SxZEhXAv91ZsTWn6rW+FI3w58r6yXP/3IriPo=
+2025-05-26 16:27:26,019 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729871596323304","quoteToken":"7UfgAaQGnk8y-2mgh3oaVnqQFAIkpCFsuxw4Y-U4z9BO4qBsLuJLs9fTUwXa6VLOc8B22xhYSSZ9aorrAWQwK3pkNhaSqGJKRxWBBRKydVETa8EABws_YVcQynoH3strr3_zwzNNvzt8su80DOsgsQ","text":"カードって対応してる、"},"webhookEventId":"01JW5QTE76Y71YG0WTGKSQFTH5","deliveryContext":{"isRedelivery":false},"timestamp":1748244445140,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"e7883f231c8142818bc2aa4cea626f31","mode":"active"}]}
+2025-05-26 16:27:26,019 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729871596323304","quoteToken":"7UfgAaQGnk8y-2mgh3oaVnqQFAIkpCFsuxw4Y-U4z9BO4qBsLuJLs9fTUwXa6VLOc8B22xhYSSZ9aorrAWQwK3pkNhaSqGJKRxWBBRKydVETa8EABws_YVcQynoH3strr3_zwzNNvzt8su80DOsgsQ","text":"カードって対応してる、"},"webhookEventId":"01JW5QTE76Y71YG0WTGKSQFTH5","deliveryContext":{"isRedelivery":false},"timestamp":1748244445140,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"e7883f231c8142818bc2aa4cea626f31","mode":"active"}]}
+2025-05-26 16:27:26,223 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:26,223 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:41,397 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:41,397 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:41,397 DEBUG [DEBUG][callback] signature=sB4hVW4h7hPMkYtebbWUqNiml6kKx4BSaCCuWqn4fuE=
+2025-05-26 16:27:41,397 DEBUG [DEBUG][callback] signature=sB4hVW4h7hPMkYtebbWUqNiml6kKx4BSaCCuWqn4fuE=
+2025-05-26 16:27:41,397 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729897081176157","quoteToken":"rvukTa9Sa-SEgq1wE_9czvvaQT8hdeNu3m9lr2ihflOE20GX9FPtA-aeSljyxBkfT9strJc3Sx5aEfckXAJkQBQrUKlDYaBuWV4e6uZX97B_euieGDLoUvYRX60XAVBbHKeQYzZik3CkussS_Jafng","text":"りょうしゅうしょって？"},"webhookEventId":"01JW5QTX7D24K2W8DZSWMC6FTN","deliveryContext":{"isRedelivery":false},"timestamp":1748244460274,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5f0c84c5113c4a51987a8d44d903b45c","mode":"active"}]}
+2025-05-26 16:27:41,397 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729897081176157","quoteToken":"rvukTa9Sa-SEgq1wE_9czvvaQT8hdeNu3m9lr2ihflOE20GX9FPtA-aeSljyxBkfT9strJc3Sx5aEfckXAJkQBQrUKlDYaBuWV4e6uZX97B_euieGDLoUvYRX60XAVBbHKeQYzZik3CkussS_Jafng","text":"りょうしゅうしょって？"},"webhookEventId":"01JW5QTX7D24K2W8DZSWMC6FTN","deliveryContext":{"isRedelivery":false},"timestamp":1748244460274,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5f0c84c5113c4a51987a8d44d903b45c","mode":"active"}]}
+2025-05-26 16:27:41,616 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:41,616 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:48,237 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:48,237 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:27:48,237 DEBUG [DEBUG][callback] signature=UsLdbmI0lQm+iQZN5iJl/9nKm+yBeuBJM4Aj+s6Vxho=
+2025-05-26 16:27:48,237 DEBUG [DEBUG][callback] signature=UsLdbmI0lQm+iQZN5iJl/9nKm+yBeuBJM4Aj+s6Vxho=
+2025-05-26 16:27:48,237 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729908758118489","quoteToken":"tDn1AvovsVEQx_e4bgbGrmhM0vKDjpypN5nQMOsAc3GMJZvATdZjq5cZIkbn2pF13enikOc13RrSp60MfXcEOkpab2l-iXMtLkiHeG8JK1u_Qei_4B1PFyDi8_YjDyZuffpGyWA-myUa0Yrqbx4L6w","text":"来ないんだけど"},"webhookEventId":"01JW5QV3Y8HM8WPCV6RW3PEEKW","deliveryContext":{"isRedelivery":false},"timestamp":1748244467232,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b59c5fd7fdc241d7836cf8ac8b8fdfd8","mode":"active"}]}
+2025-05-26 16:27:48,237 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729908758118489","quoteToken":"tDn1AvovsVEQx_e4bgbGrmhM0vKDjpypN5nQMOsAc3GMJZvATdZjq5cZIkbn2pF13enikOc13RrSp60MfXcEOkpab2l-iXMtLkiHeG8JK1u_Qei_4B1PFyDi8_YjDyZuffpGyWA-myUa0Yrqbx4L6w","text":"来ないんだけど"},"webhookEventId":"01JW5QV3Y8HM8WPCV6RW3PEEKW","deliveryContext":{"isRedelivery":false},"timestamp":1748244467232,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b59c5fd7fdc241d7836cf8ac8b8fdfd8","mode":"active"}]}
+2025-05-26 16:27:48,496 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:27:48,496 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:28:08,640 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:28:08,640 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:28:08,640 DEBUG [DEBUG][callback] signature=kL/wucscd1DIkfEnS0bDxjD36+2qIiwzhCPr70+WYWg=
+2025-05-26 16:28:08,640 DEBUG [DEBUG][callback] signature=kL/wucscd1DIkfEnS0bDxjD36+2qIiwzhCPr70+WYWg=
+2025-05-26 16:28:08,641 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729942984163482","quoteToken":"qK8hGZCN4Yl8Gy0xSAguoUgiHVyn6yRHvac3MjfaMUqriGu6SiMi4HysrnPjZfG8uzTMcXeMq9c1FhSTT_TXFk4SlpfoiRdDcaKkYFgCxjlXaRoyNjxSsl95ateAOJZD4D2mxoIUPnro29QpmwqNWg","text":"いいえ"},"webhookEventId":"01JW5QVQWDM4F2QCX22F3H4XRF","deliveryContext":{"isRedelivery":false},"timestamp":1748244487569,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a1003af1b51144b5b257fdd32eeddc40","mode":"active"}]}
+2025-05-26 16:28:08,641 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562729942984163482","quoteToken":"qK8hGZCN4Yl8Gy0xSAguoUgiHVyn6yRHvac3MjfaMUqriGu6SiMi4HysrnPjZfG8uzTMcXeMq9c1FhSTT_TXFk4SlpfoiRdDcaKkYFgCxjlXaRoyNjxSsl95ateAOJZD4D2mxoIUPnro29QpmwqNWg","text":"いいえ"},"webhookEventId":"01JW5QVQWDM4F2QCX22F3H4XRF","deliveryContext":{"isRedelivery":false},"timestamp":1748244487569,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a1003af1b51144b5b257fdd32eeddc40","mode":"active"}]}
+2025-05-26 16:28:08,885 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:28:08,885 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:15,529 DEBUG Firebase initialized
+2025-05-26 16:35:15,529 DEBUG Firebase initialized
+2025-05-26 16:35:15,530 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:35:15,530 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 16:35:24,263 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:24,263 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:24,263 DEBUG [DEBUG][callback] signature=qpl5S6+pxGgTCXDXir6cCZnY0bKAXuvvAc1Glbj1Ed4=
+2025-05-26 16:35:24,263 DEBUG [DEBUG][callback] signature=qpl5S6+pxGgTCXDXir6cCZnY0bKAXuvvAc1Glbj1Ed4=
+2025-05-26 16:35:24,263 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730674419662937","quoteToken":"Lf-BRW09Je6-Ygvid71aXpTxNvMdIGf9pJNS0x7mrXdzaCouS7MbZfYmSEEagvbIu9DNQwuxWvcH31qmejNpAka7_n9Hfqd0PhJjHZzb7_JUPcYQhJb7urg9lw_NIAcWq3Hyf-ieQ5Q3ZeARC4P6XQ","text":"来ないんだけど"},"webhookEventId":"01JW5R919F907ZR4J3QM3651GG","deliveryContext":{"isRedelivery":false},"timestamp":1748244923606,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"cf4a93b492494d0e909337c49e9a01c1","mode":"active"}]}
+2025-05-26 16:35:24,263 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730674419662937","quoteToken":"Lf-BRW09Je6-Ygvid71aXpTxNvMdIGf9pJNS0x7mrXdzaCouS7MbZfYmSEEagvbIu9DNQwuxWvcH31qmejNpAka7_n9Hfqd0PhJjHZzb7_JUPcYQhJb7urg9lw_NIAcWq3Hyf-ieQ5Q3ZeARC4P6XQ","text":"来ないんだけど"},"webhookEventId":"01JW5R919F907ZR4J3QM3651GG","deliveryContext":{"isRedelivery":false},"timestamp":1748244923606,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"cf4a93b492494d0e909337c49e9a01c1","mode":"active"}]}
+2025-05-26 16:35:24,858 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:24,858 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:31,045 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:31,045 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:31,045 DEBUG [DEBUG][callback] signature=odVuk1soD38tfo3O9qmwf0PD52hgPDpN5KwYDxWXz1w=
+2025-05-26 16:35:31,045 DEBUG [DEBUG][callback] signature=odVuk1soD38tfo3O9qmwf0PD52hgPDpN5KwYDxWXz1w=
+2025-05-26 16:35:31,045 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730685727506776","quoteToken":"1G0DXihnSGpf9NqCMCWNCcO8KS50zVxGjLjEuHBgS6Ut4_hzF1qK-p17UStF-RX4mJZUI5UaamtxwFQgkunEQJv0vyXWpJERnLA-g9GAqmAHgFBUA4TdElqos_noz0CEW2Ko5hF9AxEeqWeQgHtS1g","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R97YQ9GEEP7K2AAS9Q3XE","deliveryContext":{"isRedelivery":false},"timestamp":1748244930292,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ebaf3a723abd49c2920b77205b2d2d59","mode":"active"}]}
+2025-05-26 16:35:31,045 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730685727506776","quoteToken":"1G0DXihnSGpf9NqCMCWNCcO8KS50zVxGjLjEuHBgS6Ut4_hzF1qK-p17UStF-RX4mJZUI5UaamtxwFQgkunEQJv0vyXWpJERnLA-g9GAqmAHgFBUA4TdElqos_noz0CEW2Ko5hF9AxEeqWeQgHtS1g","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R97YQ9GEEP7K2AAS9Q3XE","deliveryContext":{"isRedelivery":false},"timestamp":1748244930292,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"ebaf3a723abd49c2920b77205b2d2d59","mode":"active"}]}
+2025-05-26 16:35:31,290 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:31,290 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:38,285 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:38,285 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:38,286 DEBUG [DEBUG][callback] signature=C5TWSGGqGbP2wEoL2bwQSgeZ8K+mrmAcSkK6x5LHRJ4=
+2025-05-26 16:35:38,286 DEBUG [DEBUG][callback] signature=C5TWSGGqGbP2wEoL2bwQSgeZ8K+mrmAcSkK6x5LHRJ4=
+2025-05-26 16:35:38,286 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730697640116820","quoteToken":"qmR47L-wD0gCzTdy6s5fx3aCkl0pnY0QJ7_Ev-8LTcF1nfHcs2xgJUNfdI4swaICKFDTEUXaL9vbkOH9eA43LYdgjQ1y9F6XOEAE4G-rAYEt4x7ea7LglR-OMZl-dNzfwNCLcmLysYyGn7URsXF7tg","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R9EWHTEEPS3RQ8CVJ2Q9M","deliveryContext":{"isRedelivery":false},"timestamp":1748244937387,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"162ace209d4841098102faaa04b5da9d","mode":"active"}]}
+2025-05-26 16:35:38,286 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730697640116820","quoteToken":"qmR47L-wD0gCzTdy6s5fx3aCkl0pnY0QJ7_Ev-8LTcF1nfHcs2xgJUNfdI4swaICKFDTEUXaL9vbkOH9eA43LYdgjQ1y9F6XOEAE4G-rAYEt4x7ea7LglR-OMZl-dNzfwNCLcmLysYyGn7URsXF7tg","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R9EWHTEEPS3RQ8CVJ2Q9M","deliveryContext":{"isRedelivery":false},"timestamp":1748244937387,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"162ace209d4841098102faaa04b5da9d","mode":"active"}]}
+2025-05-26 16:35:38,534 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:38,534 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:41,790 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:41,790 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:35:41,790 DEBUG [DEBUG][callback] signature=H5salHPqR1S9rNNOO8A5gGjVxM1QT5ltcsspKhe+78I=
+2025-05-26 16:35:41,790 DEBUG [DEBUG][callback] signature=H5salHPqR1S9rNNOO8A5gGjVxM1QT5ltcsspKhe+78I=
+2025-05-26 16:35:41,790 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730703361147374","quoteToken":"7-jqcjVR7yrVeoKLWwEqYQ4yjdLRBP9s_IOh6EYHPOVCcnAQJIQFBhUs9HsRuhkuVtXF1URoaeYUrFwubVvG2fI344QOiqz90yS1ZOH2EnlNlU5I2Aa1Snbj4nqTZS5Yiwc7vTIb-HsmJTyNrR1isA","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R9JC7HYBKJ1Z3PV0RZNP4","deliveryContext":{"isRedelivery":false},"timestamp":1748244940796,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"54f876c885ff4caa8174f3bc92cac698","mode":"active"}]}
+2025-05-26 16:35:41,790 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730703361147374","quoteToken":"7-jqcjVR7yrVeoKLWwEqYQ4yjdLRBP9s_IOh6EYHPOVCcnAQJIQFBhUs9HsRuhkuVtXF1URoaeYUrFwubVvG2fI344QOiqz90yS1ZOH2EnlNlU5I2Aa1Snbj4nqTZS5Yiwc7vTIb-HsmJTyNrR1isA","text":"コメ来ないんだけど"},"webhookEventId":"01JW5R9JC7HYBKJ1Z3PV0RZNP4","deliveryContext":{"isRedelivery":false},"timestamp":1748244940796,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"54f876c885ff4caa8174f3bc92cac698","mode":"active"}]}
+2025-05-26 16:35:42,032 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:35:42,032 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:37:54,144 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:37:54,144 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:37:54,144 DEBUG [DEBUG][callback] signature=stlZ1mp8PR7iNduepvqZTsWVjf04JjlfMyY9+U9nY5w=
+2025-05-26 16:37:54,144 DEBUG [DEBUG][callback] signature=stlZ1mp8PR7iNduepvqZTsWVjf04JjlfMyY9+U9nY5w=
+2025-05-26 16:37:54,144 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730925071270183","quoteToken":"iS1rexjXJ2UYcmsF90vCeHJx0J5_RrstqtJ2illEG45IiQ1Y6CjV_OsnbAelYCxoSKQ9s3Wqm4h-UBOhtvkNRvX1s32iaA1VUYPMAs1iIASJvAS4e0x3F8ROk7QeYw5UtSz7TcV8QMo1Q4Ls_QlGAw","text":"米の値段"},"webhookEventId":"01JW5RDKKEXN3KSDEB56SCDXSR","deliveryContext":{"isRedelivery":false},"timestamp":1748245073105,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"6b30148dbd9d444887fe5c590b1a806c","mode":"active"}]}
+2025-05-26 16:37:54,144 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562730925071270183","quoteToken":"iS1rexjXJ2UYcmsF90vCeHJx0J5_RrstqtJ2illEG45IiQ1Y6CjV_OsnbAelYCxoSKQ9s3Wqm4h-UBOhtvkNRvX1s32iaA1VUYPMAs1iIASJvAS4e0x3F8ROk7QeYw5UtSz7TcV8QMo1Q4Ls_QlGAw","text":"米の値段"},"webhookEventId":"01JW5RDKKEXN3KSDEB56SCDXSR","deliveryContext":{"isRedelivery":false},"timestamp":1748245073105,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"6b30148dbd9d444887fe5c590b1a806c","mode":"active"}]}
+2025-05-26 16:37:54,521 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:37:54,521 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:40:40,770 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:40:40,770 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:40:40,770 DEBUG [DEBUG][callback] signature=hkay+jwxt+ByUcuZMM/ZVl3WHXa6nzFgmIJGQRgNQxI=
+2025-05-26 16:40:40,770 DEBUG [DEBUG][callback] signature=hkay+jwxt+ByUcuZMM/ZVl3WHXa6nzFgmIJGQRgNQxI=
+2025-05-26 16:40:40,770 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562731204747461046","quoteToken":"KaBXCrC1CMdB7ClhUqAR4DpzOTMiiprcYwS7ni9LQBDUMGbUKnpvW4KEdymL-MHF_XsCL04jfq_qeYpqgDfOLQFEgjRdpk-cRu-r-E01wQo5EHfvICtuUq-9XvVGwbupugj-McsCj3gDsVVnGWeQ9w","text":"来ないんだけど"},"webhookEventId":"01JW5RJPB7M1JW1CW88XBTG4F7","deliveryContext":{"isRedelivery":false},"timestamp":1748245239719,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a0fba8bf85384334a8a5678a422e4061","mode":"active"}]}
+2025-05-26 16:40:40,770 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562731204747461046","quoteToken":"KaBXCrC1CMdB7ClhUqAR4DpzOTMiiprcYwS7ni9LQBDUMGbUKnpvW4KEdymL-MHF_XsCL04jfq_qeYpqgDfOLQFEgjRdpk-cRu-r-E01wQo5EHfvICtuUq-9XvVGwbupugj-McsCj3gDsVVnGWeQ9w","text":"来ないんだけど"},"webhookEventId":"01JW5RJPB7M1JW1CW88XBTG4F7","deliveryContext":{"isRedelivery":false},"timestamp":1748245239719,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a0fba8bf85384334a8a5678a422e4061","mode":"active"}]}
+2025-05-26 16:40:41,167 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:40:41,167 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:40:50,410 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:40:50,410 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 16:40:50,410 DEBUG [DEBUG][callback] signature=86m1uqUbHm9rG3U1N91lOwrb0Sm2nVsyate6JP0nVgI=
+2025-05-26 16:40:50,410 DEBUG [DEBUG][callback] signature=86m1uqUbHm9rG3U1N91lOwrb0Sm2nVsyate6JP0nVgI=
+2025-05-26 16:40:50,410 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562731220955038379","quoteToken":"iMFYMuN8V3JZLpldWbFTX1PE6kj4gGqtyX8y_e5D8VHaSngX3fH199VfJijSoeAZy5oolfdYVefTB4c8p_q49HQLZpkIw--CRZz4nMZL3DSkQla53KF_t3xqmPe1JRVM6TuWJ4lRemz2kV8-DQuDmw","text":"頼んだのに米が来ません"},"webhookEventId":"01JW5RJZQBEEY3T4S9WWWWMX3Z","deliveryContext":{"isRedelivery":false},"timestamp":1748245249364,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"9e5105654f8c4d3380517f84557f4e93","mode":"active"}]}
+2025-05-26 16:40:50,410 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562731220955038379","quoteToken":"iMFYMuN8V3JZLpldWbFTX1PE6kj4gGqtyX8y_e5D8VHaSngX3fH199VfJijSoeAZy5oolfdYVefTB4c8p_q49HQLZpkIw--CRZz4nMZL3DSkQla53KF_t3xqmPe1JRVM6TuWJ4lRemz2kV8-DQuDmw","text":"頼んだのに米が来ません"},"webhookEventId":"01JW5RJZQBEEY3T4S9WWWWMX3Z","deliveryContext":{"isRedelivery":false},"timestamp":1748245249364,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"9e5105654f8c4d3380517f84557f4e93","mode":"active"}]}
+2025-05-26 16:40:50,612 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 16:40:50,612 DEBUG Response: POST /callback -> 200 OK
+2025-05-26 17:15:27,295 DEBUG Firebase initialized
+2025-05-26 17:15:27,295 DEBUG Firebase initialized
+2025-05-26 17:15:27,296 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:15:27,296 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:15:27,598 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 472, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:15:27,598 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 472, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:15:27,598 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 472, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:15:27,598 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 472, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:15:27,623 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:15:27,623 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:15:27,623 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:15:27,623 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:43,930 DEBUG Firebase initialized
+2025-05-26 17:17:43,930 DEBUG Firebase initialized
+2025-05-26 17:17:43,930 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:43,930 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:44,227 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 475, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:17:44,227 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 475, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:17:44,227 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 475, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:17:44,227 ERROR Firebase 初期化に失敗しました
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 475, in <module>
+    firebase_admin.initialize_app(cred)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\firebase_admin\__init__.py", line 74, in initialize_app
+    raise ValueError((
+ValueError: The default Firebase app already exists. This means you called initialize_app() more than once without providing an app name as the second argument. In most cases you only need to call initialize_app() once. But if you do want to initialize multiple apps, pass a second argument to initialize_app() to give each app a unique name.
+2025-05-26 17:17:44,243 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:44,243 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:44,243 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 17:17:44,243 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:02:38,666 DEBUG Firebase initialized
+2025-05-26 19:02:38,666 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:03:08,545 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:06:50,834 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:07:12,398 DEBUG Firebase initialized
+2025-05-26 19:07:12,399 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:07:22,626 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:07:22,626 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-26 19:07:22,626 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-26 19:07:33,336 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:07:33,337 DEBUG [DEBUG][callback] signature=3xliK927O3Nd0/BbSbIMFwcnCqd8/inUiv2YVhys2uI=
+2025-05-26 19:07:33,337 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562745990457589865","quoteToken":"lFrtOwLbzsfHMjXppCLE30WPnbrTF2mkELj5Tn_0ImlVxLXy4aSQGNThLeRr7uQJ45lxy_V4gfhOpQ7Tl1YAnS3X-NQ2bUur1DQqXX6xrmkh5NPyR1BhcyghZzDevv8oxqi89fFJebbBaKZPKUBspA","text":"頼んだのに米が来ません"},"webhookEventId":"01JW60ZMGJQ92DFW55X6Y400VC","deliveryContext":{"isRedelivery":false},"timestamp":1748254052637,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5cbc317184d24933848171a5825c6f61","mode":"active"}]}
+2025-05-26 19:14:25,004 DEBUG Firebase initialized
+2025-05-26 19:14:25,005 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:14:35,065 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:14:35,065 DEBUG [DEBUG][callback] signature=ic3Z8RA0YHsXL5wbxMYb6qdUh9j+xWWTsSNUhDU+tsI=
+2025-05-26 19:14:35,065 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562746697735471670","quoteToken":"YgwSdM4YNop9-KOpDeXT__SLaMBClEmiYMeSlo2DCcPiGz66HaRD2tePQXnBoG9JXo5E6Sd6X1IErGjN2f5lRj92pkLe8iVm-BmRPENT73VmkFEEg-Vof1ncKeC4m80rCz3LnNhBjFJPfWXL_05F9A","text":"頼んだのに米が来ません"},"webhookEventId":"01JW61CGCBBA5CBPKD7Z30AB0X","deliveryContext":{"isRedelivery":false},"timestamp":1748254474289,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"fed57fb5dbb14f7a89161de9a6bf3fe4","mode":"active"}]}
+2025-05-26 19:14:35,066 ERROR Reply failed: name 'is_complaint' is not defined
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 214, in handle_message
+    if is_complaint(norm):
+       ^^^^^^^^^^^^
+NameError: name 'is_complaint' is not defined
+2025-05-26 19:16:34,367 DEBUG Firebase initialized
+2025-05-26 19:16:34,367 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:16:45,387 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:16:45,388 DEBUG [DEBUG][callback] signature=1eMSqwWSjB1t8Z90WaryWFlbaNRppwF4nfDPD9BjZVo=
+2025-05-26 19:16:45,388 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562746916342595690","quoteToken":"QYwLbPMCL9fxQOxBe_EDgxTZVkLVQZT8RM0ohqgfA3VASDdkQi74dfXMoHGAIxt82Wn9i636ahoRoKSCcx-uhIbsOY5foBbO8FMSElhKr7gxKVTk2izkqI2leYf7_aagTD_lFkPVZ9wnmdsRj6ep4g","text":"頼んだのに米来ません"},"webhookEventId":"01JW61GFNGZ68F6JRNK2R7PZB0","deliveryContext":{"isRedelivery":false},"timestamp":1748254604534,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"3c00583c4d2b43e2a929d0668d74f2bf","mode":"active"}]}
+2025-05-26 19:21:30,106 DEBUG Firebase initialized
+2025-05-26 19:21:30,106 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 19:21:45,755 DEBUG Request: GET /admin, Authorization=None
+2025-05-26 19:21:47,508 DEBUG Request: GET /admin, Authorization=None
+2025-05-26 19:21:47,557 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-26 19:22:13,286 DEBUG Request: GET /admin, Authorization=None
+2025-05-26 19:22:15,023 DEBUG Request: GET /admin, Authorization='Basic Og=='
+2025-05-26 19:23:11,305 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-26 19:25:17,906 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-26 19:25:18,215 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-26 19:25:43,910 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:25:43,910 DEBUG [DEBUG][callback] signature=szN/hzD7mJsX/+IyceW3YAX/o0Huyi7pBAmhAMvMKWY=
+2025-05-26 19:25:43,911 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562747820567429411","quoteToken":"B6HJi5L0Tm9YKA08i_4qqm9pImzwsKC_OuREt6G8QEaBJksTimlPPBBY_s5zEY_zFfMj8hak9zl5YSoBjGhA_zF6V1lsNoWoOhi08GezpN9o3Dm71B-LfPCH2K1rv94JhhwE7KgxCyQ2anzAeMch-Q","text":"とどかない"},"webhookEventId":"01JW620XHHDS1KDR1FSXV06E95","deliveryContext":{"isRedelivery":false},"timestamp":1748255143442,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"131d33646794465d9684ccd98febac6f","mode":"active"}]}
+2025-05-26 19:25:53,888 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:25:53,889 DEBUG [DEBUG][callback] signature=9Mhx44hEkLAZEs3YMzunZOx+wCg+eM/VogXzkrurArk=
+2025-05-26 19:25:53,889 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562747836622701070","quoteToken":"a4IwuO8jeWJ9qcgepgCdrq0B97vqNoPUEpj0mjZcdBuNGM7vMNhZGRhSPgD28H21cEDnPXsSpFSWVW0TZhvgxqxiDRF7z9V0LWmRCykd1hh-N2HJwZ-vO9nYeKhonhyEvmgl6a4ZxNLBePHN1lHxEw","text":"頼んだのに来ません"},"webhookEventId":"01JW62179PJWANMZN96YNRX6Y0","deliveryContext":{"isRedelivery":false},"timestamp":1748255153176,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"f81a217314c5421fb43acfed79f09b6f","mode":"active"}]}
+2025-05-26 19:26:26,454 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 19:26:26,454 DEBUG [DEBUG][callback] signature=qYHQ304RpOPslFIx0Npdvnxf1JyUy4OGmrb2+wfBCCM=
+2025-05-26 19:26:26,454 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562747891064766793","quoteToken":"M8uiMf77hxisSWc-tb9ycbNYT7YVLRRBHYX4WKRIeqVYJMB_0VwF3hHs5zH2MxaDbse4c8qQ7S-wB7zLmquWdZsw5YVhEEchuoKs0k6yrxPyQ1wRiOA8LeNOHiXWVzi34mDe9k78T0dm1MDFPyBhtg","text":"値下がり時期"},"webhookEventId":"01JW62272P2RY3ZMXZAYQ4CSXR","deliveryContext":{"isRedelivery":false},"timestamp":1748255185500,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5fb4da96fce44191ba99a72d28cbe038","mode":"active"}]}
+2025-05-26 20:28:28,514 DEBUG Firebase initialized
+2025-05-26 20:28:28,515 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-26 20:29:36,942 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 20:29:36,942 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-26 20:29:36,943 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-26 20:32:14,668 DEBUG Request: POST /callback, Authorization=None
+2025-05-26 20:32:14,668 DEBUG [DEBUG][callback] signature=y8QkWODyTT5PCuVer0LTvt7rhiQ1B0WevAC9lr/ZZh4=
+2025-05-26 20:32:14,668 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562754515095519701","quoteToken":"7fMBqdT0zGqa4NwzGNzm-bzha-nTFnwpZLgjAar6fw9L976KOIwITtF7n93rTWK-mSCjnSzz_HRkzjybe3_TysJAwVyEukqOCQhNzGQJx0rlsYYSLIOwnrljhNWuqhYnFe6WaJriq66nET7oUdr6Eg","text":"送料はいくらですか？\n支払い方法を教えてください"},"webhookEventId":"01JW65TPVBNS7X55RS3DVC763A","deliveryContext":{"isRedelivery":false},"timestamp":1748259133877,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"468d6aa85f744d46879545e7ba2d30df","mode":"active"}]}
+2025-05-27 11:48:49,979 DEBUG Firebase initialized
+2025-05-27 11:48:49,980 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-27 11:50:00,663 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 11:50:00,663 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-27 11:50:00,664 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-27 11:50:43,876 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 11:50:43,877 DEBUG [DEBUG][callback] signature=Whf63DQ/RNSz9wcVuGnZAxbBWHg/tLYC5jpIg6BJMBQ=
+2025-05-27 11:50:43,877 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562846973511074275","quoteToken":"IGbx8re2ObHTp0m234CMrzeWHwR4fXieiJndPB1Y4u77bqrvb27pmaHOAz-0OoZJaj6xeh5Dc75LY9JDZ9uN11aD0zjcbjSjg7S6AbL4hXPSA9OaSwjy04siLqovJehCNaigXA4ZYarc-YvvPBg_uQ","text":"支払い方法教えて\nあと電子マネー使える？"},"webhookEventId":"01JW7TCGH9EQVNCZXDTR62TZA8","deliveryContext":{"isRedelivery":false},"timestamp":1748314243392,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"2a1b36cc7d0f4d4f81fb9931bed0fbc5","mode":"active"}]}
+2025-05-27 11:50:52,662 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 11:50:52,662 DEBUG [DEBUG][callback] signature=dvxlHKgO7kAsIQXi1p6rK+q9nMzImGjEizjtkeNGh4U=
+2025-05-27 11:50:52,662 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562846987990073924","quoteToken":"hh-htWbllfhMNt-Pmv-yNny9Rqn-OxAliw4nYrVjc3WomrBU5GYQGOEeAAFLlj6EQFsZFRGRwBzJl7kJldnnywbraekn3_8MdIjGO2CVtk4u-wT8U2_WLlbwhpth0Y7dgbEFzleZjAn7PX0Y3P7VOw","text":"支払い方法"},"webhookEventId":"01JW7TCS6E2K3PHGD6R2JHS8FX","deliveryContext":{"isRedelivery":false},"timestamp":1748314252024,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"726d9e296b014761b6b7b48b7d68a8b8","mode":"active"}]}
+2025-05-27 11:50:53,419 ERROR Reply failed: LineBotApiError: status_code=400, request_id=8bff88f8-13b2-4c7f-8d58-d31d7e1b17f9, error_response={"details": [{"message": "May not be empty", "property": "messages[0].text"}], "message": "The request body has 1 error(s)"}, headers={'server': 'legy', 'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'content-type': 'application/json', 'date': 'Tue, 27 May 2025 02:50:53 GMT', 'expires': '0', 'pragma': 'no-cache', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'x-line-request-id': '8bff88f8-13b2-4c7f-8d58-d31d7e1b17f9', 'x-xss-protection': '1; mode=block', 'content-length': '118'}
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1\app.py", line 369, in handle_message
+    line_bot_api.reply_message(
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\deprecated\classic.py", line 199, in wrapper_function
+    return wrapped_(*args_, **kwargs_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\linebot\api.py", line 123, in reply_message
+    self._post(
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\linebot\api.py", line 2116, in _post
+    self.__check_error(response)
+  File "C:\Users\KOZUE\AppData\Local\Programs\Python\Python311\Lib\site-packages\linebot\api.py", line 2152, in __check_error
+    raise LineBotApiError(
+linebot.exceptions.LineBotApiError: LineBotApiError: status_code=400, request_id=8bff88f8-13b2-4c7f-8d58-d31d7e1b17f9, error_response={"details": [{"message": "May not be empty", "property": "messages[0].text"}], "message": "The request body has 1 error(s)"}, headers={'server': 'legy', 'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'content-type': 'application/json', 'date': 'Tue, 27 May 2025 02:50:53 GMT', 'expires': '0', 'pragma': 'no-cache', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'x-line-request-id': '8bff88f8-13b2-4c7f-8d58-d31d7e1b17f9', 'x-xss-protection': '1; mode=block', 'content-length': '118'}
+2025-05-27 11:54:02,866 DEBUG Firebase initialized
+2025-05-27 11:54:02,867 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-27 11:54:17,334 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 11:54:17,334 DEBUG [DEBUG][callback] signature=byflfaG5x2Gwr8IpuncBdG+U7tyQ/KILnJ0VzBCnHpY=
+2025-05-27 11:54:17,334 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562847332308615547","quoteToken":"dfKlhjgeYQOO4jHlTxhwiGW2hRATH76mmKzo2wPOL6XjOetRlSbV6W_pz8db5bqrbmRQ_XFgOLbhH_EVFMVJmECKUDfPQ3Z_nvDJr4g79aPL1T6v6hPBSOqciOe7Cov_LA-w91BQOYnzqfb-VtwR3w","text":"支払い方法教えて\nあと電子マネー使える？"},"webhookEventId":"01JW7TK114S539890YCZKSSJ99","deliveryContext":{"isRedelivery":false},"timestamp":1748314457076,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"8cf7eee9efea441c857d5ec3a53a2085","mode":"active"}]}
+2025-05-27 11:58:04,371 DEBUG Request: GET /admin）にログイン, Authorization=None
+2025-05-27 11:58:04,463 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-27 11:58:14,030 DEBUG Request: GET /admin）にログイン, Authorization=None
+2025-05-27 11:58:22,400 DEBUG Request: GET /admin, Authorization=None
+2025-05-27 11:58:23,705 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 11:59:51,168 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 11:59:51,297 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:01:38,559 DEBUG Firebase initialized
+2025-05-27 12:01:38,559 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-27 12:01:53,524 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:01:53,524 DEBUG [DEBUG][callback] signature=3C2UyIltG/CTxSKoaf094EK7zW3kqgOZ1u3LXpHjqQU=
+2025-05-27 12:01:53,524 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848097668432197","quoteToken":"X_sYxpEeX0b8ir91fHn4feR6Efyy63B3Bp2nD5djJZnQ4FwkdKYX-nLLwJkPhI8rEB2cDpYSgZ25c_5FOmQBZuzBrofkLS7SL0WQVAHk3pfTJCmiBq2bCB_FQ1pRdnL1TeEbF66BzIii0O60_ebQlw","text":"支払い方法教えて"},"webhookEventId":"01JW7V0YFZTJT9CD594P8PYJZM","deliveryContext":{"isRedelivery":false},"timestamp":1748314913254,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"08855e0c347e4a9a8301c1498248b75d","mode":"active"}]}
+2025-05-27 12:01:57,441 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:01:57,441 DEBUG [DEBUG][callback] signature=1SP4qvqtj8oy7uek6HX0+/8EB27OBSG9DQ7mQQF1Hrs=
+2025-05-27 12:01:57,441 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848103322616392","quoteToken":"B667NxPGdQllQKZ-c9ZMXnLgribeOC7bBd18AY6xBl5XY2Zw4A60lceCpEInVadWo_TfYXGwAg5l7KoyfondyFi1iyBCLoFbatTlQeJfnbl-qatdU-DNoioQASp-JHRy8vM6wWaNWY1wG-anT1m6eQ","text":"支払い方法"},"webhookEventId":"01JW7V12BGP1AXVGJKTQW936S2","deliveryContext":{"isRedelivery":false},"timestamp":1748314916797,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"81b86a5c196c4902b509fda00683977f","mode":"active"}]}
+2025-05-27 12:04:32,624 DEBUG Firebase initialized
+2025-05-27 12:04:32,625 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-27 12:04:46,405 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:04:46,405 DEBUG [DEBUG][callback] signature=rQVLMg1Yb5hxkHsKti4X6nMOSGFr/QLx9MA3dUy9f3I=
+2025-05-27 12:04:46,405 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848386974483022","quoteToken":"nTAG23SU4qlbIuI1HbpMhzY7skrJVGxVRbIX1aa2SpcHAzb8llc-ZXRHDAl7gDd2dodscoOawlcKe9gjhxUCrtac9dzW3iQzB6VsGz_GBIxxEitdenR2lVmm4DiDffsvk7owZv0Oo1vGymds6hTcdg","text":"支払い方法教えて\nあと電子マネー使える？"},"webhookEventId":"01JW7V679QM4XYZTGJGT3F205M","deliveryContext":{"isRedelivery":false},"timestamp":1748315085802,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"2de095d6498949b8a25a044f6b071dda","mode":"active"}]}
+2025-05-27 12:06:52,544 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:06:54,872 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:06:55,951 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:06:56,616 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:06:56,943 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:08:20,357 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:08:20,480 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:08:32,981 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:08:32,982 DEBUG [DEBUG][callback] signature=BCpVlIx74HKSQtz1AXCV2a3hs/VVRCgEkzihRYrQUjA=
+2025-05-27 12:08:32,982 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848766911316023","quoteToken":"zXHZVGKlHttFhOIcLk1tBwElDYoGFgCszkkB7T4Xnv_GxOQcIv6beBeEZZViHpDCyvWZG-jLD4LXn8q1G96RUw-kXVuuuIHWNUaAJ14_J6xIqcCctGjVHrqpxYSBXh6PPITd4jIr5hw4MOrteqeaGQ","text":"電子マネー使える？"},"webhookEventId":"01JW7VD4J45JHR6HVWHSWNDWFW","deliveryContext":{"isRedelivery":false},"timestamp":1748315312258,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"a9a8d51f25ca4984a7a0323a20b53313","mode":"active"}]}
+2025-05-27 12:09:42,792 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:09:42,927 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:09:53,632 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:09:53,632 DEBUG [DEBUG][callback] signature=lUViITDZpYLOZMlIo48zP9AqBxMe6sgvAd6xY9E1nDU=
+2025-05-27 12:09:53,632 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848902152978589","quoteToken":"qXmyyelP695kqdiRlrKT8YBUqN8G5xmRTaZNG9K9aIjfhXH7dIHt72anz3Gy6vZve8arXnNft4Hosn_UJ1fflDp_d68xKo2aDKYHZl31CvIfm_QjofFFOyR23OIIqYhBqhy91vK_KA2bUEjj7SqmbQ","text":"電子マネーつかえる？"},"webhookEventId":"01JW7VFKC8XQWN4SDNSSKDR53B","deliveryContext":{"isRedelivery":false},"timestamp":1748315392910,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5ab2305cbee041298e3e601971c6d9d0","mode":"active"}]}
+2025-05-27 12:10:02,459 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:10:35,825 DEBUG Request: POST /admin/faq_delete, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:10:35,956 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:10:44,314 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:10:44,315 DEBUG [DEBUG][callback] signature=7KSLHfx71AW4ALS+uZhVwbJHVLO5fuJ+P5tqhM108gM=
+2025-05-27 12:10:44,315 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562848987044905178","quoteToken":"Kf_kS6oVAjCl46h1sm_AHpGuHzU1tprfE1x2cVFI6zkxzIYpyxqA3FRWi0i_ZPJPKBolJzBNqpuodLR0-2HW3RO3PtNAH0IKrE2UXNFSStcX2-BJ9YpLpJGPFIEN715kEiclVGQTEGjiZ4wj-alxPQ","text":"電子マネー使える？"},"webhookEventId":"01JW7VH4TX059Q04JSNP0DAYZH","deliveryContext":{"isRedelivery":false},"timestamp":1748315443553,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"c816b62db0dd47fc89bc73ae68b43d7c","mode":"active"}]}
+2025-05-27 12:11:10,111 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:11:10,219 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:12:47,764 DEBUG Request: POST /admin/faq_save, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:12:47,898 DEBUG Request: GET /admin, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-27 12:20:34,516 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:20:34,516 DEBUG [DEBUG][callback] signature=HAWUsxmB8waCJ6CLNIahb8AOL7n1Crr/Y+tAUai1y7Q=
+2025-05-27 12:20:34,516 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562849978394607702","quoteToken":"iwP9L8u7pjusjtr9nyxffa0kaGd31Zed5Jh2Km4wb9PzCtM2R7mRo4TEowYrBmHIJoD4UT_nW-Mv-X-9FLcUmrYEoCjiL918LX1ycm-yymjQ6Pq2hv_FZVTIufWf3irFI_bpv0h2riFlu9rtULqDPA","text":"コメ届かない！"},"webhookEventId":"01JW7W356Q9NE54MJB1BWNXEQB","deliveryContext":{"isRedelivery":false},"timestamp":1748316034249,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"1dd232d97b174f8fae08f3a2a1d43c17","mode":"active"}]}
+2025-05-27 12:20:44,463 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:20:44,463 DEBUG [DEBUG][callback] signature=v8Y3inDgBl23FD44o1n5IJiA8hOQAKREYnf40/boopg=
+2025-05-27 12:20:44,463 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562849994601398342","quoteToken":"WQ4esSQXOnHfYZquWTpdLdIYCLfHyKBamlz14Ct8eH3F7L6wgS1xkWw-d8QjfulTktLwJjN-iyIfOUngXzq9gO1EsqKM74mw02fGLogDswpvkZyMAILvYQmX2MiKusoMJtmkgfzFUgo-zseNiO_XXw","text":"最悪"},"webhookEventId":"01JW7W3EY40MTP4PR04QJF4P6P","deliveryContext":{"isRedelivery":false},"timestamp":1748316043909,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"be75c63d4afd4c7e8fc4145f90b5d258","mode":"active"}]}
+2025-05-27 12:20:52,623 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:20:52,623 DEBUG [DEBUG][callback] signature=qKV1EoAqZXP3R5dGALla45E1iLcCs1Fx0jwjUeFrIiY=
+2025-05-27 12:20:52,623 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850008240489070","quoteToken":"Y7yhPBeeVlUd2aPUkjnr4VbuSe2uUkTQ04G_18u1F8fBOPbsAZIBhplZLw7Z823_mEmCXW-zivUVX-f3zwBALF71W-8659eCp3KPGMYbkwhscX_k23kC43TwCNffSH6VrmgRMYcVZEXQZ6eZ0H9E3Q","text":"ねえ"},"webhookEventId":"01JW7W3PWM2FC2DDX5421G5TY1","deliveryContext":{"isRedelivery":false},"timestamp":1748316052184,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"5c7376045b014d19adc81656f28dc383","mode":"active"}]}
+2025-05-27 12:20:55,201 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:20:55,202 DEBUG [DEBUG][callback] signature=OzIKZhQbZA5P46PHDJO56V2RUuyE2ZImEWqrxmrp7Uo=
+2025-05-27 12:20:55,202 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850012217475404","quoteToken":"uiZouFI9YngiZcjgoMHa4GE0QyrYVdIhqTkwSK3N9jmax-bA3wySyGGdk7pOhi_4L3XJPc_RrtqsTMe4arv02NJsYi0Lf_guswuoF2KZWfgpK1_KawuCW89vCNyeMWtn9H2SdnPs2OLOJhOKbQ6twA","text":"おい"},"webhookEventId":"01JW7W3SCY3XCKRAXWVN401YR1","deliveryContext":{"isRedelivery":false},"timestamp":1748316054529,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b26318ac235e47059ad8af18ce712081","mode":"active"}]}
+2025-05-27 12:21:03,914 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:03,914 DEBUG [DEBUG][callback] signature=bWNPP+7PMYCmq0AV6MBMDc7ETgZXYViEQXhS9dc/oBI=
+2025-05-27 12:21:03,914 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850026796089596","quoteToken":"fq2SPcNGLhO7NhD7MU7oG-NbiZeUF_9TLZcjRG5daTBMduHek0UkVWOQawVZHMhaMgo1e8dV7A8hjk7qR3DFawrXqNKOvDRxpgwynk9k3Uw6rpNRs2dxu7DAx9HMjExZvNpMwM_HiQWrF_ZdRvb4WA","text":"美味しかったです！"},"webhookEventId":"01JW7W41WQE5HHG2HBQPTWD8DV","deliveryContext":{"isRedelivery":false},"timestamp":1748316063151,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"415bcba70b3a4fce94196a63400fd250","mode":"active"}]}
+2025-05-27 12:21:08,984 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:08,985 DEBUG [DEBUG][callback] signature=f5SIGMbmFXpzSyI+U+KfSMUWjTo0zXkRY4htt9N4GvM=
+2025-05-27 12:21:08,985 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"sticker","id":"562850035570573510","quoteToken":"sYpvFjMNDqC4nEKmNDW7RgLcrg_TMxhhXUm1e-VX1MXRXnqqf7d4g_GB1tT5KwR4MDncmu8ouv8-IQjnHnYXXjnjSlQI3XqeTaGblMW1QcDts_Rl6xMR0kRLtxJvn3yaN77ZadzdvrkU0WyRVSEk-Q","stickerId":"4","packageId":"1","stickerResourceType":"STATIC","keywords":["blessed","Please","beg","Thanks","Sparkle","moon","emo","Moved","grateful","takecare","innocent"]},"webhookEventId":"01JW7W46VQWZ94D2S7MAD60P8C","deliveryContext":{"isRedelivery":false},"timestamp":1748316068490,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"808cfdfd294b44f994cf6226cc78de0c","mode":"active"}]}
+2025-05-27 12:21:18,042 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:18,043 DEBUG [DEBUG][callback] signature=7srio3lsXSZDhdhTzdRMOZlGDTnv+fCSPjHLupmReXE=
+2025-05-27 12:21:18,043 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850050703622667","quoteToken":"5unha_cCBQmjBY2Ap3Eha4mSQMUkmP2VWkcgM_t86SQI17-NHTnvJQWvtlBRK4yX8COq3d2QcYIzGvCDyTRzc_Ulh3SEilg86PyU80a-7ALtrpdGyEP4tIgbbn2yRAPmBwIgYlV5iZlgPqH7OKLyjQ","text":"今何してる？"},"webhookEventId":"01JW7W4FN9AZSC8PH3DVXDVE85","deliveryContext":{"isRedelivery":false},"timestamp":1748316077429,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"59014c96c5cc4569b57b5b6d6d6dfffe","mode":"active"}]}
+2025-05-27 12:21:22,093 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:22,093 DEBUG [DEBUG][callback] signature=bff4Fkf/Hn22MAaLZYGh3WSSsMfL2tzXCDatEy/DoKo=
+2025-05-27 12:21:22,093 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850057481879829","quoteToken":"4Fuo6iOwuWb9EL0FFJ6jMBYYrxZ7B5ElbnzhETsdO5ElSJkyLn_0NQSaezGSfGBLlWIzMnllrpp8_a6FnG9TWD28nKfs-hMHT-VUT377ivPyF7sjR_Z6YtUBj9X8ES-wr_psA8LFdLM8jkpMlCQB0Q","text":"かもめ"},"webhookEventId":"01JW7W4KNE9AG317Z2FZZPRZJS","deliveryContext":{"isRedelivery":false},"timestamp":1748316081517,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"05f6d56aa05e4c98abc74e4556b75377","mode":"active"}]}
+2025-05-27 12:21:28,522 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:28,523 DEBUG [DEBUG][callback] signature=oG2IDaxXjlIFHmJKUIMGgoJi0g6YiKKohBu0rbPzGPM=
+2025-05-27 12:21:28,523 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850068688798058","quoteToken":"nM29NF7_H0hmcyvDnw1qkB9291BSQQ60qBlHsDXe-DfHrEzmFDGiZ5i8LpcijwybG2upSBw4yxzBzxdBBXVKPannei4ZpJCaEvU0IFBTRim8I4nkdV7mji2e64w8mlnJZfsKq9KL2zuV1duLnPHsfQ","text":"カフェイン"},"webhookEventId":"01JW7W4SY6QKW9J1NP0T4FZJY1","deliveryContext":{"isRedelivery":false},"timestamp":1748316088209,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"c83889f8437d41fa9eff314447fcdd63","mode":"active"}]}
+2025-05-27 12:21:35,714 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:35,714 DEBUG [DEBUG][callback] signature=AiLaWUdugkvzUgYS9jWdDek13Ty15aVDB2/4sXzOm5g=
+2025-05-27 12:21:35,714 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850080063750318","quoteToken":"jGOHz0Xqs2jZtbrUpo8tyX7PoWZWyeadWpIf0ymWHPizSY9hLiHEoDWuaAgUd5K6Pdf-T7MvQCHigoWSFRmUDytWqdm0m39BwVAvkOFF2L2ryVw1duhwl-Fxkp-5LPiQW3sDTmyUh1S1n963Tx1hUg","text":"エーペックス"},"webhookEventId":"01JW7W50YDGPBE53C1KPYQGY4Q","deliveryContext":{"isRedelivery":false},"timestamp":1748316094931,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"55f94217911247fdb976a6efac20595b","mode":"active"}]}
+2025-05-27 12:21:45,145 DEBUG Request: POST /callback, Authorization=None
+2025-05-27 12:21:45,145 DEBUG [DEBUG][callback] signature=TkaeItwypLUSx8iVoWiwGP03CcNNKgqGcfcSA5Fqtsg=
+2025-05-27 12:21:45,145 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"562850096774644121","quoteToken":"MuTtM-azd9BEmUKm-AFCqgXsehVwcmFic2fI3TZ7iiS5igM3y3ICyZxMgQ5DbElmJyV6gViDEl8cjO_k7M7Ed1DnYwY3m1bxpflI4r1W4oq9KdaVlEbOiyslNQT86F8jMMUwxLYKKppJjKUlHwniAg","text":"営業時間"},"webhookEventId":"01JW7W5A5Q19EDRXZDVGHEXWST","deliveryContext":{"isRedelivery":false},"timestamp":1748316104813,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"4b69423392a346f89edc384934103945","mode":"active"}]}
+2025-05-27 17:10:58,178 ERROR OPENAI_API_KEY が設定されていません
+2025-05-27 17:13:49,093 DEBUG Firebase initialized
+2025-05-27 17:13:49,093 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:14:19,279 DEBUG Firebase initialized
+2025-05-27 17:14:19,280 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:17:50,152 DEBUG Firebase initialized
+2025-05-27 17:17:50,152 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:18:58,303 DEBUG Firebase initialized
+2025-05-27 17:18:58,303 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:19:58,102 DEBUG Firebase initialized
+2025-05-27 17:19:58,102 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:22:05,056 DEBUG Firebase initialized
+2025-05-27 17:22:05,057 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:26:50,118 DEBUG Firebase initialized
+2025-05-27 17:26:50,119 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:34:11,888 DEBUG Firebase initialized
+2025-05-27 17:34:11,888 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-27 17:34:11,931 DEBUG Request: POST /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:12,274 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-27 17:34:40,698 DEBUG Firebase initialized
+2025-05-27 17:34:40,699 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='password'
+2025-05-27 17:34:40,711 DEBUG Request: POST /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:41,132 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:41,201 DEBUG Request: PUT /api/faq/OIxVM9EWWGjZY6Ey58Yu, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:41,342 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:41,399 DEBUG Request: DELETE /api/faq/OIxVM9EWWGjZY6Ey58Yu, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:34:42,045 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-27 17:36:52,988 DEBUG Firebase initialized
+2025-05-27 17:36:52,988 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='password'
+2025-05-27 17:36:52,996 DEBUG Request: POST /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:53,422 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:53,486 DEBUG Request: PUT /api/faq/6Y2TNZusnsHttprl81zh, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:53,627 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:53,706 DEBUG Request: DELETE /api/faq/6Y2TNZusnsHttprl81zh, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:53,973 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
+2025-05-27 17:36:54,021 DEBUG Request: GET /api/faq, Authorization=None

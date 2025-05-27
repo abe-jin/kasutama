@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>管理画面（会話履歴・FAQ管理）</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        nav {
+            margin: 20px;
+        }
+
+        nav button {
+            padding: 8px 20px;
+            margin-right: 20px;
+        }
+
+        .tab {
+            display: none;
+        }
+
+        .tab.active {
+            display: block;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 95%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background: #f2f2f2;
+        }
+
+        .actions button {
+            margin-right: 4px;
+        }
+
+        form {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 60%;
+            padding: 4px;
+        }
+    </style>
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab').forEach(e => e.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // FAQ編集時にフォームへ反映
+        function fillFaqForm(id, question, aliases, category, summary, answer) {
+            document.getElementById('faq_id').value = id;
+            document.getElementById('faq_question').value = question;
+            document.getElementById('faq_aliases').value = aliases;
+            document.getElementById('faq_category').value = category || '';
+            document.getElementById('faq_summary').value = summary || '';
+            document.getElementById('faq_answer').value = answer;
+            document.getElementById('faq_submit').value = "更新";
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+
+        function clearFaqForm() {
+            document.getElementById('faq_id').value = '';
+            document.getElementById('faq_question').value = '';
+            document.getElementById('faq_aliases').value = '';
+            document.getElementById('faq_answer').value = '';
+            document.getElementById('faq_submit').value = "追加";
+        }
+    </script>
+</head>
+
+<body>
+    <h1 style="text-align:center;">管理画面</h1>
+    <nav style="text-align:center;">
+        <button onclick="switchTab('tab-history')">会話履歴</button>
+        <button onclick="switchTab('tab-faq')">FAQ管理</button>
+    </nav>
+
+    <!-- 会話履歴タブ -->
+    <div id="tab-history" class="tab active">
+        <h2>会話履歴</h2>
+        <form method="get" action="/admin">
+            <input type="text" name="keyword" placeholder="キーワード検索">
+            <input type="date" name="start_date">〜<input type="date" name="end_date">
+            <button type="submit">検索</button>
+            <a href="/admin/download_csv"><button type="button">CSVダウンロード</button></a>
+        </form>
+
+        <!-- 未解決質問TOP10 -->
+        <h3>未解決質問TOP10</h3>
+        <ol>
+            {% for msg, count in top_unresolved %}
+            <li>{{ msg }}（{{ count }}回）</li>
+            {% endfor %}
+        </ol>
+
+        <!-- 未解決/クレーム履歴テーブル -->
+        <h3>未解決/クレーム履歴</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>日時</th>
+                    <th>ユーザーID</th>
+                    <th>質問</th>
+                    <th>応答</th>
+                    <th>ヒット種別</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for m in unresolved %}
+                <tr
+                    style="color: {% if m.hit_status == '未ヒット' %}red{% elif m.hit_status == 'クレーム' %}orange{% endif %}; font-weight: bold;">
+                    <td>
+                        {% if m.timestamp %}
+                        {{ m.timestamp.strftime('%Y-%m-%d %H:%M') }}
+                        {% endif %}
+                    </td>
+                    <td>{{ m.user_id }}</td>
+                    <td>{{ m.user_message }}</td>
+                    <td>{{ m.response }}</td>
+                    <td>{{ m.hit_status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- 全会話履歴 -->
+        <h3>全会話履歴</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>日時</th>
+                    <th>ユーザーID</th>
+                    <th>質問</th>
+                    <th>応答</th>
+                    <th>ヒット種別</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for m in messages %}
+                <tr>
+                    <td>{{ m.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+                    <td>{{ m.user_id }}</td>
+                    <td>{{ m.user_message }}</td>
+                    <td>{{ m.response }}</td>
+                    <td>{{ m.hit_status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- FAQ管理タブ -->
+    <div id="tab-faq" class="tab">
+        <h2>FAQ一覧・管理</h2>
+
+        <!-- FAQ追加・編集フォーム -->
+        <form method="post" action="/admin/faq_save" id="faq_form">
+            <input type="hidden" name="faq_id" id="faq_id">
+            <label>質問（必須）<br>
+                <input type="text" name="question" id="faq_question" required>
+            </label>
+            <label>別名・類義語（カンマ区切り）<br>
+                <input type="text" name="aliases" id="faq_aliases" placeholder="例: しはらい, クレカ, カード">
+            </label>
+            <label>カテゴリ<br>
+                <input type="text" name="category" id="faq_category">
+            </label>
+            <label>サマリー（要約）<br>
+                <input type="text" name="summary" id="faq_summary">
+            </label>
+            <label>回答（必須）<br>
+                <textarea name="answer" id="faq_answer" rows="2" required></textarea>
+            </label>
+            <input type="submit" id="faq_submit" value="追加">
+            <button type="button" onclick="clearFaqForm()">クリア</button>
+        </form>
+
+        <!-- FAQ一覧テーブル -->
+        <table>
+            <thead>
+                <tr>
+                    <th>質問</th>
+                    <th>別名（aliases）</th>
+                    <th>カテゴリ</th>
+                    <th>サマリー</th>
+                    <th>回答</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for faq in faqs %}
+                <tr>
+                    <td>{{ faq.question }}</td>
+                    <td>{{ faq.aliases|join(', ') }}</td>
+                    <td>{{ faq.category or '' }}</td>
+                    <td>{{ faq.summary or '' }}</td>
+                    <td>{{ faq.answer }}</td>
+                    <td class="actions">
+                        <button type="button"
+                            onclick="fillFaqForm('{{ faq.id }}', '{{ faq.question }}', '{{ faq.aliases|join(',') }}', '{{ faq.category or '' }}', '{{ faq.summary or '' }}', '{{ faq.answer }}')">編集</button>
+                        <form method="post" action="/admin/faq_delete" style="display:inline;">
+                            <input type="hidden" name="faq_id" value="{{ faq.id }}">
+                            <button type="submit" onclick="return confirm('削除しますか？')">削除</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+
+
+            <!-- FAQインポート/エクスポート（オプション） -->
+            <form method="post" action="/admin/faq_import" enctype="multipart/form-data" style="margin:10px 0;">
+                <label>FAQ一括インポート（CSV/JSON対応）<input type="file" name="faq_file" accept=".csv,.json"></label>
+                <button type="submit">インポート</button>
+                <a href="/admin/faq_export"><button type="button">エクスポート</button></a>
+            </form>
+    </div>
+</body>
+
+</html>
