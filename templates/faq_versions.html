@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FAQバージョン履歴</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background: #f0f0f0;
+        }
+
+        .actions {
+            text-align: center;
+        }
+
+        button {
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="{{ url_for('admin.admin_top') }}">← 管理画面トップへ戻る</a>
+    </nav>
+
+    <h2>FAQバージョン履歴 (ID: {{ faq_id }})</h2>
+
+    <form method="post" action="{{ url_for('admin.admin_faq_rollback') }}">
+        {{ csrf_token() }}
+        <input type="hidden" name="faq_id" value="{{ faq_id }}">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>選択</th>
+                    <th>タイムスタンプ</th>
+                    <th>編集者</th>
+                    <th>質問プレビュー</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for v in versions %}
+                <tr>
+                    <td class="actions">
+                        <input type="radio" name="version_id" value="{{ v.id }}" required>
+                    </td>
+                    <td>
+                        {% if v.timestamp %}
+                        {{ v.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}
+                        {% else %}
+                        （未知の日付）
+                        {% endif %}
+                    </td>
+                    <td>{{ v.editor }}</td>
+                    <td>{{ v.data.question or '—' }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <button type="submit">このバージョンにロールバック</button>
+        <button type="button" onclick="location.href='{{ url_for('admin.admin_top') }}'">キャンセル</button>
+    </form>
+</body>
+
+</html>

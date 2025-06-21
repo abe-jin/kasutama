@@ -1,0 +1,28 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "faq",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "lang", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "faq",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "question", "order": "ASCENDING" },
+        { "fieldPath": "updatedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "auditLogs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

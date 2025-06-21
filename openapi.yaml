@@ -1,0 +1,128 @@
+openapi: "3.0.0"
+info:
+  title: Customer Support FAQ API
+  version: "1.0.0"
+servers:
+  - url: https://{host}/api
+    variables:
+      host:
+        default: api.example.com
+paths:
+  /faq:
+    get:
+      summary: Get list of FAQs
+      operationId: listFaqs
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/FAQ'
+    post:
+      summary: Create a new FAQ
+      operationId: createFaq
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FAQInput'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FAQ'
+  /faq/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get a FAQ by ID
+      operationId: getFaqById
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FAQ'
+    put:
+      summary: Update a FAQ by ID
+      operationId: updateFaq
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FAQInput'
+      responses:
+        '200':
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FAQ'
+    delete:
+      summary: Delete a FAQ by ID
+      operationId: deleteFaq
+      responses:
+        '204':
+          description: No Content
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    FAQ:
+      type: object
+      properties:
+        id:
+          type: string
+        question:
+          type: string
+        answer:
+          type: string
+        aliases:
+          type: array
+          items:
+            type: string
+        lang:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - question
+        - answer
+    FAQInput:
+      type: object
+      required:
+        - question
+        - answer
+      properties:
+        question:
+          type: string
+        answer:
+          type: string
+        aliases:
+          type: array
+          items:
+            type: string
+        lang:
+          type: string
+security:
+  - bearerAuth: []

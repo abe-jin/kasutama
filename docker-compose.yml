@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: faq_app
+    ports:
+      - '5000:5000'
+    env_file:
+      - .env
+    depends_on:
+      - firestore_emulator
+
+  firestore_emulator:
+    image: "mtlynch/firestore-emulator:latest"
+    container_name: firestore_emulator
+    ports:
+      - '8080:8080'
+    environment:
+      - FIRESTORE_PROJECT_ID=${FIRESTORE_PROJECT_ID}

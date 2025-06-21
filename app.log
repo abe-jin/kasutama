@@ -836,3 +836,160 @@ linebot.exceptions.LineBotApiError: LineBotApiError: status_code=400, request_id
 2025-05-27 17:36:53,706 DEBUG Request: DELETE /api/faq/6Y2TNZusnsHttprl81zh, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
 2025-05-27 17:36:53,973 DEBUG Request: GET /api/faq, Authorization='Basic YWRtaW46cGFzc3dvcmQ='
 2025-05-27 17:36:54,021 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-27 18:25:37,117 ERROR OPENAI_API_KEY が設定されていません
+2025-05-27 18:26:48,370 ERROR LINE_CHANNEL_SECRET または ACCESS_TOKEN が設定されていません
+2025-05-27 18:26:48,402 DEBUG Firebase initialized
+2025-05-27 18:26:48,402 DEBUG Loaded BASIC creds: ADMIN_USER='', ADMIN_PASS=''
+2025-05-28 14:10:08,446 DEBUG Firebase initialized
+2025-05-28 14:10:08,446 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 14:19:48,374 DEBUG Firebase initialized
+2025-05-28 14:19:48,375 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 14:23:53,708 DEBUG Firebase initialized
+2025-05-28 14:23:53,708 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 14:31:47,896 DEBUG Firebase initialized
+2025-05-28 14:31:47,897 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 14:49:35,785 DEBUG Firebase initialized
+2025-05-28 14:49:35,785 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:15:58,487 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:15:58,555 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-28 15:21:58,038 DEBUG Firebase initialized
+2025-05-28 15:21:58,039 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:22:36,792 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:22:36,865 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-28 15:23:27,300 DEBUG Firebase initialized
+2025-05-28 15:23:27,300 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:23:41,371 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:24:54,942 DEBUG Firebase initialized
+2025-05-28 15:24:54,943 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:24:57,924 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:29:08,123 DEBUG Firebase initialized
+2025-05-28 15:29:08,123 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:29:33,507 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:31:58,126 DEBUG Firebase initialized
+2025-05-28 15:31:58,126 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:32:05,870 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:32:46,506 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:37:08,191 DEBUG Firebase initialized
+2025-05-28 15:37:08,191 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:37:46,917 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:39:47,832 DEBUG Firebase initialized
+2025-05-28 15:39:47,832 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:39:52,393 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 15:45:31,166 DEBUG Firebase initialized
+2025-05-28 15:45:31,166 DEBUG Loaded BASIC creds: ADMIN_USER='admin', ADMIN_PASS='pass1234'
+2025-05-28 15:45:33,298 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 16:23:47,632 DEBUG Firebase initialized
+2025-05-28 17:02:14,491 DEBUG Firebase initialized
+2025-05-28 17:18:02,650 DEBUG Firebase initialized
+2025-05-28 17:19:58,817 DEBUG Firebase initialized
+2025-05-28 17:22:46,347 DEBUG Firebase initialized
+2025-05-28 17:27:17,396 DEBUG Firebase initialized
+2025-05-28 17:27:41,636 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:30:41,873 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:32:47,576 DEBUG Firebase initialized
+2025-05-28 17:38:41,557 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:38:46,510 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:46:06,478 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:46:07,822 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:46:26,540 DEBUG Firebase initialized
+2025-05-28 17:46:33,374 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:51:23,373 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 17:51:23,379 DEBUG Request: GET /login, Authorization=None
+2025-05-28 17:51:56,525 DEBUG Firebase initialized
+2025-05-28 18:02:12,443 DEBUG Firebase initialized
+2025-05-28 18:02:56,298 DEBUG Request: GET /, Authorization=None
+2025-05-28 18:05:08,630 DEBUG Firebase initialized
+2025-05-28 18:05:17,850 DEBUG Request: GET /, Authorization=None
+2025-05-28 18:05:17,853 DEBUG Request: GET /login, Authorization=None
+2025-05-28 18:05:27,675 DEBUG Request: POST /login, Authorization=None
+2025-05-28 18:05:27,679 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 18:12:36,349 DEBUG Request: GET /admin/audit, Authorization=None
+2025-05-29 12:31:54,878 DEBUG Firebase initialized
+2025-05-29 12:32:05,967 DEBUG Request: GET /admin, Authorization=None
+2025-05-29 12:32:06,007 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-29 12:32:13,304 DEBUG Request: GET /admin, Authorization=None
+2025-05-29 12:33:57,799 DEBUG Request: GET /admin, Authorization=None
+2025-05-29 12:33:57,824 DEBUG Request: GET /favicon.ico, Authorization=None
+2025-05-29 12:36:48,222 DEBUG Firebase initialized
+2025-05-29 12:36:51,407 DEBUG Request: GET /admin, Authorization=None
+2025-05-29 12:36:51,410 DEBUG Request: GET /login, Authorization=None
+2025-05-29 12:36:52,625 DEBUG Request: POST /login, Authorization=None
+2025-05-29 12:36:52,629 DEBUG Request: GET /admin, Authorization=None
+2025-05-29 12:37:07,787 DEBUG Request: GET /admin/faq_versions/1gf8m7G3tcGTJPkHJbQh, Authorization=None
+2025-05-29 12:51:44,835 DEBUG Firebase initialized
+2025-05-29 12:56:23,734 DEBUG Firebase initialized
+2025-05-29 12:57:42,272 DEBUG Firebase initialized
+2025-05-29 13:02:10,153 DEBUG Firebase initialized
+2025-05-29 13:09:49,702 DEBUG Firebase initialized
+2025-05-29 13:12:51,619 DEBUG Firebase initialized
+2025-05-29 13:16:08,599 DEBUG Firebase initialized
+2025-05-29 13:24:56,511 DEBUG Firebase initialized
+2025-05-29 13:41:26,749 DEBUG Firebase initialized
+2025-05-29 13:47:10,030 DEBUG Firebase initialized
+2025-05-29 13:51:08,089 DEBUG Firebase initialized
+2025-05-29 13:54:56,794 DEBUG Firebase initialized
+2025-05-29 13:56:04,879 DEBUG Firebase initialized
+2025-05-29 14:01:03,002 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:02:38,211 DEBUG Firebase initialized
+2025-05-29 14:02:41,443 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:03:04,481 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:06:47,821 DEBUG Firebase initialized
+2025-05-29 14:06:51,128 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:06:51,128 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-29 14:06:51,128 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-29 14:06:57,486 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:06:57,486 DEBUG [DEBUG][callback] signature=+XoPhyEh1R1suwZuWLu8LEBXbK+x8aTO3L7cnLSmj20=
+2025-05-29 14:06:57,486 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563150598020268596","quoteToken":"btWeUJg7nUEHYgeRz2B7sApD9K1Mpb8KQ_bWXKy5Xw3bkm4PFjxzRHE1Gq3_rD0XqvVUTVKqEQkzZ5TX_n4PIo9RmPx6K-2ib_Z8aBr6DF9cGAs1-vCyHDidtVmDUpYOxTK882-IgHkhCOpxliY51w","text":"営業時間は？"},"webhookEventId":"01JWD6ZDCZXZ36T37VK81R7202","deliveryContext":{"isRedelivery":false},"timestamp":1748495217573,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"d49bf28e72dc4b818d15ba9f66e760ca","mode":"active"}]}
+2025-05-29 14:06:59,806 ERROR Embedding生成失敗: name 'array' is not defined
+2025-05-29 14:13:09,059 DEBUG Firebase initialized
+2025-05-29 14:13:22,158 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:13:22,159 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-29 14:13:22,159 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-29 14:13:42,377 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:13:42,377 DEBUG [DEBUG][callback] signature=vdZ4H6rAYhueWdH/EEq4P0eCtaim1lLxaNbmpjbzcms=
+2025-05-29 14:13:42,378 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563151278067417515","quoteToken":"-GJ0ZvFwi3e22zkdrErX5K9wan9eY3qYlB6mjsasHofXnChPSsyrIhAbLaEG87NgNnJNDhdLSfT9-9ld-LfZWZ5DT83Sy1m1ex8T4mmEPjWOmHcQlopQxXGL_3E_GjOAD98TIPKuP4ZuoPXaUs_aNA","text":"営業時間は？"},"webhookEventId":"01JWD7BRSFTK5PMAGMHZYJHXNM","deliveryContext":{"isRedelivery":false},"timestamp":1748495622865,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"9302e70bf3374203946e045c64781d36","mode":"active"}]}
+2025-05-29 14:17:42,178 DEBUG Firebase initialized
+2025-05-29 14:18:00,646 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:18:00,646 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-29 14:18:00,647 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-29 14:18:08,324 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:18:08,325 DEBUG [DEBUG][callback] signature=Xdfm3TQALHEZBqSW/tciGhcqAIpFjtO+aipZaJ+NV4M=
+2025-05-29 14:18:08,325 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563151723654021155","quoteToken":"YEnDoDhyAVA4z5CMNfGuggg3IghqzO6rwiJiKZOCjU4dudBpkE7WIr245SA6_xtDH-97T32YkhJZY7DNfQ3lkSG17E0bm5DESuFHo1MpnLFotm9FJtUwVp4SL61AHlgXDpb-OmA_FTXKy_F5Ene-Mg","text":"営業時間は？"},"webhookEventId":"01JWD7KWEJMC3FN2KN4QM66YVF","deliveryContext":{"isRedelivery":false},"timestamp":1748495888438,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"b64dc6c2444249aba5ad3ec6ca3b4771","mode":"active"}]}
+2025-05-29 14:18:29,492 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:18:29,492 DEBUG [DEBUG][callback] signature=q+fBTb9FIo/COvFVnVn/P8xOEkqfjd981ddvvSfA+No=
+2025-05-29 14:18:29,492 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563151758818279835","quoteToken":"JkQMpkCakd7BaNa_hJoqx7Sk0P3K1dCgamnzIX5uRR-kcq-ACMwiQYlfQAmjsa_z1-WRyI1EJ6rt84CUofSy6z1IZgdYSiKHGX2ozDjIB-VV-BUSwRtZ31U4BxDKSHnFTDun3_5EQcmAnJFVU7MlIQ","text":"こんにちは"},"webhookEventId":"01JWD7MH4R5YCJGTWPF2MPE88K","deliveryContext":{"isRedelivery":false},"timestamp":1748495909535,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"bb9da0fafb484babb075e68ca1a8943c","mode":"active"}]}
+2025-05-29 14:24:07,917 DEBUG Firebase initialized
+2025-05-29 14:24:18,947 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:24:18,947 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-29 14:24:18,947 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-05-29 14:24:26,390 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:24:26,390 DEBUG [DEBUG][callback] signature=4JdwHOYYIw3c2P6Ljgf5BwTTqqlQHMY7fKedJnREmwc=
+2025-05-29 14:24:26,390 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563152358100697625","quoteToken":"X1Jsj8cRXqxUBNFS3WmdKoVURepJLmGZkT4qdg6oprTQkBIQuJB5lSON42b4KHgsVohZ2OyPeYUPOJfDSEpONIl4cYqj88ecD4_f9_Hf0iMkiqV4Tb3EgXEQsTkJudcE8QuznzEI5bzIqMbWkjd3vg","text":"営業時間は？"},"webhookEventId":"01JWD7ZDPMDGC6G99FPXSWRRD6","deliveryContext":{"isRedelivery":false},"timestamp":1748496266639,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"12e2873daeca4bee96f687edca222d74","mode":"active"}]}
+2025-05-29 14:34:16,394 DEBUG Firebase initialized
+2025-05-29 14:42:43,277 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 14:42:43,277 DEBUG [DEBUG][callback] signature=kNqo7jIKXa1UmjqygzZzwjE346IMh/MeoZVSMWZHmeY=
+2025-05-29 14:42:43,277 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563154198410822281","quoteToken":"55B36df_nModFLfDOW24Qwnq6bgluGxe47XgFLeEZg6cCSfNo18SjgdbBhZASAoWv-L-9lb1cC9V7CwJW4--RuUJCaTKzuKsOO9GETp2yDtyrhJ9J9PnovEnTqjRcBtB0I7wXT_aaFbBQ78Kthcxuw","text":"営業時間は？"},"webhookEventId":"01JWD90WW7M75CPWM9K4FCXCKA","deliveryContext":{"isRedelivery":false},"timestamp":1748497363606,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"47616239cc8a442d9d977353ee635465","mode":"active"}]}
+2025-05-29 14:47:50,188 DEBUG Firebase initialized
+2025-05-29 19:11:49,443 DEBUG Firebase initialized
+2025-05-29 19:13:20,494 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-29 19:14:47,420 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-29 19:24:36,577 DEBUG Request: POST /callback, Authorization=None
+2025-05-29 19:24:36,578 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-05-29 19:24:36,578 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-06-02 17:07:22,274 DEBUG Firebase initialized
+2025-06-02 17:08:23,500 DEBUG Firebase initialized
+2025-06-02 17:11:15,251 DEBUG Request: POST /callback, Authorization=None
+2025-06-02 17:11:15,251 DEBUG [DEBUG][callback] signature=Jx0sA3ufItq74RgfuakdkPqnpi3s3JdhaOBAP8Xup0k=
+2025-06-02 17:11:15,251 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[]}
+2025-06-02 17:11:41,799 DEBUG Request: POST /callback, Authorization=None
+2025-06-02 17:11:41,799 DEBUG [DEBUG][callback] signature=Ze3q0ak4/jB5jhwy40bOSZ/VOUPaZteZPX0UtUog+Gs=
+2025-06-02 17:11:41,799 DEBUG [DEBUG][callback] body={"destination":"U05a507347deb7b09f7a13672eadf7294","events":[{"type":"message","message":{"type":"text","id":"563749019034059029","quoteToken":"dHv-xS8YVnvzLspbNJljGs_BEBuupipAA1Z7D4vA5HGUbE9cnY5fUpd0CmTyqgd83CfBM1lxWHht0XWKLactUAsIr7kheKx9jzupgsYkYXx6KBZdUZxPYUGFx-6gf9HduAdUQrNhAFHct5yQ49-hlA","text":"営業時間は？"},"webhookEventId":"01JWQV4M1597S8SWZV79QNKGDN","deliveryContext":{"isRedelivery":false},"timestamp":1748851904329,"source":{"type":"user","userId":"U50053e521947abbc1debc86f27b4c169"},"replyToken":"9b6e9af5b3fe470998d6cd3e143c5c3d","mode":"active"}]}
+2025-06-02 17:11:42,592 ERROR Reply failed: 'question'
+Traceback (most recent call last):
+  File "C:\Users\KOZUE\Downloads\a1_backup\app.py", line 524, in handle_message
+    [normalize_text(f['question']) for f in faq_cache])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KOZUE\Downloads\a1_backup\app.py", line 524, in <listcomp>
+    [normalize_text(f['question']) for f in faq_cache])
+                    ~^^^^^^^^^^^^
+KeyError: 'question'

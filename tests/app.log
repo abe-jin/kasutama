@@ -1,0 +1,39 @@
+2025-05-28 19:59:01,909 DEBUG Firebase initialized
+2025-05-28 19:59:02,306 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:04:04,284 DEBUG Firebase initialized
+2025-05-28 20:04:04,653 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:05:12,583 DEBUG Firebase initialized
+2025-05-28 20:05:12,951 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:06:28,818 DEBUG Firebase initialized
+2025-05-28 20:06:29,204 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:07:30,237 DEBUG Firebase initialized
+2025-05-28 20:07:30,599 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:07:49,560 DEBUG Firebase initialized
+2025-05-28 20:07:49,923 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:09:13,491 DEBUG Firebase initialized
+2025-05-28 20:09:13,842 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:11:12,944 DEBUG Firebase initialized
+2025-05-28 20:11:13,302 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:13:28,773 DEBUG Firebase initialized
+2025-05-28 20:13:29,132 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:27:50,201 DEBUG Firebase initialized
+2025-05-28 20:27:50,213 DEBUG Request: POST /api/faq, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-28 20:27:50,578 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:30:16,086 DEBUG Firebase initialized
+2025-05-28 20:30:16,102 DEBUG Request: POST /api/faq, Authorization='Basic YWRtaW46cGFzczEyMzQ='
+2025-05-28 20:30:16,455 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:32:00,058 DEBUG Firebase initialized
+2025-05-28 20:32:56,539 DEBUG Firebase initialized
+2025-05-28 20:32:56,550 DEBUG Request: POST /login, Authorization=None
+2025-05-28 20:32:56,552 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 20:32:56,769 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:35:43,586 DEBUG Firebase initialized
+2025-05-28 20:35:43,598 DEBUG Request: POST /login, Authorization=None
+2025-05-28 20:35:43,600 DEBUG Request: GET /admin, Authorization=None
+2025-05-28 20:35:43,733 DEBUG Request: POST /api/faq, Authorization=None
+2025-05-28 20:35:43,872 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:35:43,995 DEBUG Request: PUT /api/faq/BJaCfv8dbtZ8YK9XYLqP, Authorization=None
+2025-05-28 20:35:44,172 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:35:44,217 DEBUG Request: DELETE /api/faq/BJaCfv8dbtZ8YK9XYLqP, Authorization=None
+2025-05-28 20:35:44,532 DEBUG Request: GET /api/faq, Authorization=None
+2025-05-28 20:35:44,601 DEBUG Request: GET /api/faq, Authorization=None
